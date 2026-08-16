@@ -22,6 +22,31 @@ def amz(query):
 def esc(s):
     return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
 
+# ---------------- imagery (owned, AI-generated; not Amazon product photos) ----------------
+CAT_HERO = {
+    "espresso": "hero-espresso.png",
+    "pourover": "hero-pourover.png",
+    "frenchpress": "hero-frenchpress.png",
+    "coldbrew": "hero-coldbrew.png",
+    "beans": "hero-beans.png",
+    "grinder": "hero-grinder.png",
+    "travel": "hero-travel.png",
+    "cozy": "hero-cozy.png",
+}
+def cat_of(slug):
+    s = slug.lower()
+    if "espresso" in s: return "espresso"
+    if "pour" in s or "drip" in s or "aeropress" in s: return "pourover"
+    if "french" in s: return "frenchpress"
+    if "cold" in s: return "coldbrew"
+    if "bean" in s or "decaf" in s: return "beans"
+    if "grind" in s: return "grinder"
+    if any(k in s for k in ("travel","camp","student","office","dorm")): return "travel"
+    return "cozy"
+def hero_img(slug, alt):
+    fn = CAT_HERO[cat_of(slug)]
+    return f'<img class="hero-img" src="/static/img/{fn}" alt="{esc(alt)}" width="1536" height="1024" loading="lazy">'
+
 # ---------------- builders ----------------
 def nav_html(active):
     out = []
@@ -87,16 +112,19 @@ def guide_jsonld(g, url):
 
 def render_guide(g):
     url = f'/guides/{g["slug"]}.html'
+    hero = hero_img(g["slug"], g["h1"])
     picks = []
-    for p in g["picks"]:
+    for i, p in enumerate(g["picks"]):
         link = amz(p["query"])
+        badge = '<span class="badge">Editor’s Pick</span>' if i == 0 else ''
+        thumb = f'<img class="thumb" src="/static/img/{CAT_HERO[cat_of(g["slug"])]}" alt="{esc(p["name"])}" width="72" height="72" loading="lazy">'
         pros = "".join(f"<li>+ {esc(x)}</li>" for x in p["pros"])
         cons = "".join(f"<li>− {esc(x)}</li>" for x in p["cons"])
         picks.append(f'''<div class="pick">
-  <h3><a href="{link}" rel="sponsored nofollow">{esc(p["name"])}</a></h3>
+  <div class="pick-head">{thumb}<div><h3><a href="{link}" rel="sponsored nofollow">{esc(p["name"])}</a></h3>{badge}</div></div>
   <p>{esc(p["note"])}</p>
   <div class="pc"><ul class="pros">{pros}</ul><ul class="cons">{cons}</ul></div>
-  <p class="buy"><a class="btn" href="{link}" rel="sponsored nofollow">Check price on Amazon →</a></p>
+  <p class="buy"><a class="btn" href="{link}" rel="sponsored nofollow">View on Amazon →</a></p>
 </div>''')
     picks_html = "\n".join(picks)
     faq_html = "\n".join(f'<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q,a in g["faq"])
@@ -106,6 +134,7 @@ def render_guide(g):
         rel_html = f'<section class="related"><h2>Related guides</h2><ul>{items}</ul></section>'
     body = f'''<article class="guide">
   <h1>{esc(g["h1"])}</h1>
+  {hero}
   <p class="lead">{esc(g["intro"])}</p>
   <section class="picks">{picks_html}</section>
   <section class="advice"><h2>Buying advice</h2><p>{esc(g["advice"])}</p></section>
@@ -122,6 +151,7 @@ def render_home():
     body = f'''<section class="hero">
   <h1>{esc(SITE["name"])}</h1>
   <p class="tag">{esc(SITE["tagline"])}</p>
+  <img class="hero-img home-hero" src="/static/img/hero-espresso.png" alt="A shot of espresso in a cup" width="1536" height="1024" loading="lazy">
   <p class="hero-cta"><a class="btn big" href="/tools.html">Try the free brew calculators →</a></p>
 </section>
 <section class="tools-tease">
