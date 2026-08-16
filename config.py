@@ -18,6 +18,11 @@ SITE = {
 # The key file is served at /{INDEXNOW_KEY}.txt; we ping api.indexnow.org after each deploy.
 INDEXNOW_KEY = "d4e5f60718293a4b5c6d7e8f90a1b2c3"
 
+# Google Search Console verification (compresses Google indexing from weeks to days).
+# Leave empty until the user claims the property once in GSC and pastes the code here.
+# Safe, one-time action (verify own site) — not public posting, no ban risk.
+GSC_CODE = ""
+
 # Global footer affiliate disclosure (required by Amazon Associates + FTC).
 DISCLOSURE = (
     "BrewLab is reader-supported. When you buy through links on our site, "
