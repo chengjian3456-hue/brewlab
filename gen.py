@@ -65,7 +65,7 @@ def page(title, meta, body, canonical="/", json_ld=None):
 
 def guide_jsonld(g, url):
     faq = [{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in g["faq"]]
-    data = {
+    article = {
       "@context":"https://schema.org",
       "@type":"Article",
       "headline":g["title"],
@@ -75,9 +75,15 @@ def guide_jsonld(g, url):
       "mainEntityOfPage":{"@type":"WebPage","@id":DOMAIN+url}
     }
     if faq:
-        data["@type"] = ["Article","FAQPage"]
-        data["mainEntity"] = faq
-    return json.dumps(data, ensure_ascii=False)
+        article["@type"] = ["Article","FAQPage"]
+        article["mainEntity"] = faq
+    # Product rich snippets for each pick -> higher CTR once indexed (autonomous, no identity).
+    items = [{"@type":"Product","name":p["name"],"description":p["note"],
+              "offers":{"@type":"Offer","url":amz(p["query"]),
+                        "availability":"https://schema.org/InStock"}} for p in g["picks"]]
+    graph = {"@graph":[article, {"@type":"ItemList",
+              "itemListElement":[{"@type":"ListItem","position":i+1,"item":it} for i,it in enumerate(items)]}]}
+    return json.dumps(graph, ensure_ascii=False)
 
 def render_guide(g):
     url = f'/guides/{g["slug"]}.html'
@@ -189,6 +195,15 @@ def render_tools():
     <label>Serving size (oz) <input type="number" id="cf-oz" min="0" step="1" placeholder="8"></label>
     <button class="btn" onclick="solveCaffeine()">Estimate</button>
     <p class="result" id="cf-out"></p>
+  </div>
+
+  <div class="calc" id="esp">
+    <h2>Espresso Yield Calculator</h2>
+    <p>Espresso is measured by yield, not just water. Enter the dose and your target ratio (1:2 is a classic, bright start) to get the liquid yield in the cup.</p>
+    <label>Dose (g) <input type="number" id="e-dose" min="0" step="0.5" placeholder="18"></label>
+    <label>Yield ratio (1:N) <input type="number" id="e-ratio" min="1" step="0.5" placeholder="2"></label>
+    <button class="btn" onclick="solveEspresso()">Calculate yield</button>
+    <p class="result" id="e-out"></p>
   </div>
 </section>
 <script src="/static/js/brew.js" defer></script>'''
