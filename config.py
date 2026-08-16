@@ -21,7 +21,7 @@ INDEXNOW_KEY = "d4e5f60718293a4b5c6d7e8f90a1b2c3"
 # Google Search Console verification (compresses Google indexing from weeks to days).
 # Leave empty until the user claims the property once in GSC and pastes the code here.
 # Safe, one-time action (verify own site) — not public posting, no ban risk.
-GSC_CODE = ""
+GSC_CODE = "dCGrpUDlS6F9wtzXGYQXr7p3XciZnmJ30dH3kZWKmDk"
 
 # Global footer affiliate disclosure (required by Amazon Associates + FTC).
 DISCLOSURE = (
