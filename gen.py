@@ -2,8 +2,9 @@
 """BrewLab static site generator. Run: python gen.py  (outputs to ./dist)"""
 import os, json, shutil
 from urllib.parse import quote
-from config import SITE, DISCLOSURE, NAV
+from config import SITE, DISCLOSURE, NAV, INDEXNOW_KEY
 from data.guides import GUIDES
+from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DIST = os.path.join(ROOT, "dist")
@@ -282,7 +283,30 @@ BrewLab is a beginner-friendly coffee gear and brew-guide site. We publish calcu
 BrewLab is supported by affiliate links; recommendations are editorial and independent of any commission.
 """
     write("/llms.txt", llms)
-    print(f"Generated {len(urls)} URLs + llms.txt into {DIST}")
+    # IndexNow key file (Bing/Yandex instant indexing). Content must be exactly the key.
+    write(f"/{INDEXNOW_KEY}.txt", INDEXNOW_KEY)
+    # RSS feed — lets aggregators & AI engines subscribe to new guides (autonomous discovery).
+    feed_items = "\n".join(
+        f'''    <item>
+      <title>{esc(g["title"])}</title>
+      <link>{DOMAIN}/guides/{g["slug"]}.html</link>
+      <guid>{DOMAIN}/guides/{g["slug"]}.html</guid>
+      <description>{esc(g["meta"])}</description>
+    </item>''' for g in GUIDES)
+    now = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
+    feed = f'''<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{esc(SITE["name"])} — Coffee Gear Guides</title>
+    <link>{DOMAIN}/</link>
+    <description>{esc(SITE["tagline"])}</description>
+    <language>en</language>
+    <lastBuildDate>{now}</lastBuildDate>
+{feed_items}
+  </channel>
+</rss>'''
+    write("/feed.xml", feed)
+    print(f"Generated {len(urls)} URLs + llms.txt + {INDEXNOW_KEY}.txt + feed.xml into {DIST}")
 
 if __name__ == "__main__":
     main()
