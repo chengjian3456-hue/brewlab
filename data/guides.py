@@ -639,4 +639,80 @@ GUIDES = [
         ],
         "related": ["best-coffee-maker-for-camping", "best-aeropress-setup-for-beginners", "how-to-make-espresso-at-home-without-machine"],
     },
+    {
+        "slug": "cold-brew-vs-iced-coffee",
+        "title": "Cold Brew vs Iced Coffee: What's Actually Different",
+        "meta": "They look the same over ice, but cold brew and iced coffee are made completely differently — and taste it. The real difference, and which to make.",
+        "h1": "Cold Brew vs Iced Coffee",
+        "intro": (
+            "Cold brew and iced coffee are not the same drink with different names. One is brewed "
+            "cold over hours; the other is brewed hot and chilled. That difference changes the flavor, "
+            "the caffeine, and the gear. Here's the honest comparison so you can make the one you "
+            "actually want."
+        ),
+        "picks": [
+            {"name": "Cold brew maker", "query": "cold brew coffee maker",
+             "note": "For true cold brew you steep coarse grounds in cold water 12–18 hours. A dedicated maker keeps it tidy and reusable.",
+             "pros": ["Smooth", "Low acid", "Make-ahead"], "cons": ["Slow", "Needs fridge space"]},
+            {"name": "Flash-brew (iced pour-over) kettle", "query": "gooseneck kettle pour over",
+             "note": "For iced coffee / flash brew you brew hot, directly over ice. A gooseneck kettle gives the control.",
+             "pros": ["Bright", "Fast", "Aromatic"], "cons": ["Needs kettle + ice"]},
+            {"name": "Insulated tumbler", "query": "insulated coffee tumbler",
+             "note": "Either drink stays cold longer in a double-wall tumbler — the one piece of gear both methods share.",
+             "pros": ["Keeps cold", "Portable"], "cons": ["One more cup"]},
+        ],
+        "advice": (
+            "Choose by taste, not trend. Cold brew is round, sweet, low-acid, and forgiving — great "
+            "for hot days and sensitive stomachs. Iced coffee (hot brewed, poured over ice) keeps the "
+            "bright, aromatic notes of the bean and is ready in minutes. Flash brew (hot coffee dripped "
+            "straight onto ice) is the best of both: full flavor, served cold, no waiting overnight."
+        ),
+        "faq": [
+            ("Is cold brew stronger than iced coffee?",
+             "Not necessarily. Cold brew concentrate is often diluted 1:1, landing near a normal cup. Because it tastes smoother, people assume it's stronger — but caffeine depends on how much coffee you actually use."),
+            ("Which has more caffeine, cold brew or iced coffee?",
+             "It varies by recipe. A 1:8 cold brew concentrate diluted 1:1 can rival a strong iced coffee; a weak iced coffee can have less. Use our Caffeine Calculator to estimate by method and size."),
+            ("Can I make iced coffee without a machine?",
+             "Yes — brew any coffee (pour-over, French press, drip) and pour it over ice, or flash-brew by dripping hot coffee onto ice. No special machine required."),
+        ],
+        "related": ["best-cold-brew-maker-for-beginners", "best-pour-over-coffee-setup-for-beginners", "best-drip-coffee-maker-for-home"],
+    },
+    {
+        "slug": "best-grind-size-by-brew-method",
+        "title": "Best Grind Size by Brew Method (Espresso to Cold Brew)",
+        "meta": "The right grind size for espresso, pour-over, French press, AeroPress, cold brew, and drip — with the gear that actually hits those settings.",
+        "h1": "Best Grind Size by Brew Method",
+        "intro": (
+            "Grind size is the dial that controls extraction: too fine and coffee turns bitter and "
+            "overextracted; too coarse and it tastes weak and sour. Every brew method wants a different "
+            "size. This is the cheat sheet, plus the grinders that can actually hit each setting."
+        ),
+        "picks": [
+            {"name": "1Zpresso J-Max (hand)", "query": "1Zpresso J-Max hand grinder",
+             "note": "Micro-adjustable across the whole range — from espresso-fine to French-press-coarse. One grinder for every method on this list.",
+             "pros": ["Full range", "Espresso-grade", "Silent"], "cons": ["Manual"]},
+            {"name": "Baratza Encore ESP", "query": "Baratza Encore ESP grinder",
+             "note": "Electric with true espresso steps and a clear coarse range for filter and French press.",
+             "pros": ["Espresso steps", "Coarse range", "Reliable"], "cons": ["~$170"]},
+            {"name": "Timemore C2 (hand)", "query": "Timemore C2 hand grinder",
+             "note": "Budget hand grinder that covers pour-over through French press coarse with good consistency.",
+             "pros": ["Cheap", "Coarse-consistent", "Silent"], "cons": ["Limited espresso"]},
+        ],
+        "advice": (
+            "Quick reference (fine → coarse): espresso = fine (powdered sugar); AeroPress = "
+            "medium-fine; pour-over / drip = medium (table salt); French press / cold brew = coarse "
+            "(sea salt). When in doubt, go one step coarser — under-extraction is easier to fix by "
+            "grinding finer than over-extraction is to undo. A scale plus our Brew Ratio Calculator keeps "
+            "the rest of the recipe constant while you tune the grind."
+        ),
+        "faq": [
+            ("What grind for espresso?",
+             "Fine, like powdered sugar, and very consistent. An espresso-capable grinder (Baratza Encore ESP, 1Zpresso J-Max) is required — a basic grinder won't dial in."),
+            ("What grind for French press and cold brew?",
+             "Coarse, like sea salt. Too fine and you get sludge and bitterness; the mesh filter can't catch fine particles."),
+            ("Can one grinder do every method?",
+             "A wide-range grinder like the 1Zpresso J-Max or Baratza Encore ESP covers espresso through cold brew. Cheap grinders usually manage only the coarse end well."),
+        ],
+        "related": ["best-grinder-for-espresso", "best-coffee-grinder-for-french-press", "best-quiet-coffee-grinder-under-100"],
+    },
 ]
