@@ -2,7 +2,7 @@
 """BrewLab static site generator. Run: python gen.py  (outputs to ./dist)"""
 import os, json, shutil
 from urllib.parse import quote
-from config import SITE, DISCLOSURE, NAV, INDEXNOW_KEY
+from config import SITE, DISCLOSURE, NAV, INDEXNOW_KEY, GSC_CODE
 from data.guides import GUIDES
 from datetime import datetime, timezone
 
@@ -39,6 +39,7 @@ def footer_html():
 
 def page(title, meta, body, canonical="/", json_ld=None):
     ld = f'<script type="application/ld+json">{json_ld}</script>\n' if json_ld else ''
+    gsc = f'<meta name="google-site-verification" content="{GSC_CODE}">\n' if GSC_CODE else ''
     return f'''<!DOCTYPE html>
 <html lang="{SITE["lang"]}">
 <head>
@@ -51,7 +52,7 @@ def page(title, meta, body, canonical="/", json_ld=None):
 <meta property="og:description" content="{esc(meta)}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{DOMAIN}{canonical}">
-{ld}<link rel="stylesheet" href="/static/css/style.css">
+{gsc}{ld}<link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
 <header><div class="wrap"><a class="brand" href="/">{SITE["name"]}</a>
@@ -285,6 +286,9 @@ BrewLab is supported by affiliate links; recommendations are editorial and indep
     write("/llms.txt", llms)
     # IndexNow key file (Bing/Yandex instant indexing). Content must be exactly the key.
     write(f"/{INDEXNOW_KEY}.txt", INDEXNOW_KEY)
+    # Google Search Console verification file (compresses Google indexing after a one-time user verify).
+    if GSC_CODE:
+        write(f"/google{GSC_CODE}.html", f"google-site-verification: {GSC_CODE}")
     # RSS feed — lets aggregators & AI engines subscribe to new guides (autonomous discovery).
     feed_items = "\n".join(
         f'''    <item>
