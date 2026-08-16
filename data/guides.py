@@ -715,4 +715,283 @@ GUIDES = [
         ],
         "related": ["best-grinder-for-espresso", "best-coffee-grinder-for-french-press", "best-quiet-coffee-grinder-under-100"],
     },
+    {
+        "slug": "best-french-press",
+        "title": "Best French Press (2026): The Most Forgiving Great Cup You Can Make",
+        "meta": "The best all-round French presses — glass, steel, and travel — that make clean, full-bodied coffee without a machine.",
+        "h1": "Best French Press",
+        "intro": (
+            "The French press is the most approachable way to make full-bodied coffee: no paper "
+            "filter, no electricity, just coarse grounds, hot water, and patience. This guide covers "
+            "the best presses across materials and budgets, and what actually separates a good one "
+            "from a frustrating one."
+        ),
+        "picks": [
+            {"name": "Bodum Chambord", "query": "Bodum Chambord French press",
+             "note": "The reference glass press: classic look, 8-cup and 12-oz sizes, replaceable parts.",
+             "pros": ["Iconic", "Cheap", "Easy parts"], "cons": ["Glass breaks", "Cools fast"]},
+            {"name": "Frieling Double-Wall Steel", "query": "Frieling French press stainless steel",
+             "note": "Insulated steel keeps coffee hot far longer and won't shatter. The upgrade pick.",
+             "pros": ["Keeps heat", "Durable", "Dishwasher safe"], "cons": ["Pricier"]},
+            {"name": "Espro P3 / P7", "query": "Espro French press",
+             "note": "Two stacked micro-filters cut sediment dramatically — the cleanest French press cup.",
+             "pros": ["Low sediment", "Great build"], "cons": ["Cost", "Filters need care"]},
+        ],
+        "advice": (
+            "Use a coarse grind (like sea salt) and a 1:15 ratio, steep 4 minutes, then plunge slowly. "
+            "Glass is cheapest and looks great but loses heat; steel holds temperature; the Espro's "
+            "double filter is the fix if you hate sediment. Pair with a burr grinder — see our "
+            "French-press grinder guide."
+        ),
+        "faq": [
+            ("What is the best French press overall?",
+             "The Bodum Chambord is the best-value classic; the Frieling double-wall is best if you want heat retention and durability; the Espro is best for a clean, low-sediment cup."),
+            ("Why is my French press coffee gritty?",
+             "Usually too-fine a grind or a single mesh filter. Go coarser and consider a double-filter press like the Espro."),
+        ],
+        "related": ["best-french-press-for-one-person", "best-coffee-grinder-for-french-press", "best-coffee-maker-for-camping"],
+    },
+    {
+        "slug": "best-coffee-beans-for-espresso",
+        "title": "Best Coffee Beans for Espresso (Beginner-Friendly Bags)",
+        "meta": "Espresso needs beans that pull sweet, not sour. The roast levels and beginner-friendly bags that dial in easily.",
+        "h1": "Best Coffee Beings for Espresso",
+        "intro": (
+            "Not every bean makes good espresso. Light roasts can taste sour under pressure, and "
+            "stale beans refuse to build crema. For beginners, medium-to-medium-dark blends designed "
+            "for espresso are the easiest path to a sweet, balanced shot. This guide explains what to "
+            "look for and which bags are forgiving."
+        ),
+        "picks": [
+            {"name": "Medium-dark espresso blend", "query": "espresso coffee beans medium dark roast",
+             "note": "The safe start: balanced, sweet, forgiving across grind settings and machines.",
+             "pros": ["Forgiving", "Sweet", "Good crema"], "cons": ["Less 'origin' character"]},
+            {"name": "Whole-bean (roast-date bag)", "query": "fresh roasted espresso beans whole bean",
+             "note": "Buy beans with a roast date within 4 weeks and grind just before pulling. Freshness beats brand.",
+             "pros": ["Crema", "Flavor", "Aroma"], "cons": ["Needs grinder", "Use soon"]},
+            {"name": "Decaf espresso (later)", "query": "decaf espresso beans whole bean",
+             "note": "Modern decaf (swiss-water) pulls a credible shot — good if you want espresso without the caffeine.",
+             "pros": ["Low caffeine", "Real crema"], "cons": ["Slightly flatter"]},
+        ],
+        "advice": (
+            "Freshness rules espresso: beans older than 4–6 weeks lose crema and go flat. Always buy "
+            "whole bean and grind right before pulling — a good espresso grinder (see our grinder "
+            "guide) is non-negotiable. Start at a 1:2 ratio (18 g in / 36 g out) and adjust by taste."
+        ),
+        "faq": [
+            ("What roast is best for espresso?",
+             "Medium to medium-dark for beginners — they pull sweet and forgiving. Light roasts are trendy but sour and hard to dial in without experience."),
+            ("Whole bean or pre-ground for espresso?",
+             "Always whole bean. Espresso needs a fresh, fine, consistent grind you can only get from a real grinder; pre-ground cannot build proper pressure or crema."),
+        ],
+        "related": ["best-grinder-for-espresso", "best-espresso-machine-under-300-for-beginners", "best-coffee-beans-for-beginners"],
+    },
+    {
+        "slug": "best-coffee-grinder-under-100",
+        "title": "Best Coffee Grinder Under $100 (Electric & Hand)",
+        "meta": "The best sub-$100 grinders for filter, French press, and entry espresso — electric and hand, without wasting money.",
+        "h1": "Best Coffee Grinder Under $100",
+        "intro": (
+            "Under $100 you can get a genuinely good burr grinder — especially for filter and French "
+            "press, where consistency demands are lower than espresso. This guide separates the "
+            "grinders that punch above their price from the ones that merely look cheap."
+        ),
+        "picks": [
+            {"name": "Baratza Encore (refurb)", "query": "Baratza Encore burr grinder",
+             "note": "The reliable electric workhorse; often under $100 refurbished. Best all-rounder for filter.",
+             "pros": ["Reliable", "Repairable", "True burr"], "cons": ["Not micro-espresso"]},
+            {"name": "1Zpresso Q2 / C2 (hand)", "query": "1Zpresso hand grinder",
+             "note": "Premium-feeling hand grinder under $100 with excellent consistency and zero noise.",
+             "pros": ["Great consistency", "Silent", "Portable"], "cons": ["Manual"]},
+            {"name": "OXO Brew Conical", "query": "OXO brew conical burr grinder",
+             "note": "Affordable electric with a usable coarse range and a grounds container.",
+             "pros": ["Electric", "Good value"], "cons": ["Slight inconsistency"]},
+        ],
+        "advice": (
+            "Decide by brew method. For espresso under $100, a hand grinder (1Zpresso) beats any "
+            "electric. For filter/French press, the Baratza Encore or OXO is plenty. Whatever you "
+            "pick, insist on a burr grinder — blade grinders chop unevenly and ruin extraction."
+        ),
+        "faq": [
+            ("Is a $100 grinder good enough?",
+             "Easily for filter and French press, and surprisingly for espresso if you go hand-grinder. The limit is fine micro-adjustment for advanced espresso."),
+            ("Electric or hand under $100?",
+             "Electric (Baratza Encore, OXO) for convenience on filter; hand (1Zpresso) for the best consistency and espresso capability at this price."),
+        ],
+        "related": ["best-grinder-for-espresso", "best-coffee-grinder-for-french-press", "best-quiet-coffee-grinder-under-100"],
+    },
+    {
+        "slug": "best-gooseneck-kettle",
+        "title": "Best Gooseneck Kettle (Stovetop & Electric, Any Budget)",
+        "meta": "A gooseneck kettle is the single biggest pour-over upgrade. The best stovetop and electric gooseneck kettles for beginners.",
+        "h1": "Best Gooseneck Kettle",
+        "intro": (
+            "If pour-over is your brew, a gooseneck kettle is the upgrade that matters most — the "
+            "thin, controllable spout turns a chaotic pour into an even, repeatable one. This guide "
+            "covers stovetop and electric gooseneck kettles at every budget."
+        ),
+        "picks": [
+            {"name": "Fellow Stagg EKG", "query": "Fellow Stagg EKG gooseneck kettle",
+             "note": "The electric design icon: precise temp, hold mode, beautifully balanced pour. Premium pick.",
+             "pros": ["Accurate temp", "Perfect pour", "Holds heat"], "cons": ["Pricey"]},
+            {"name": "Hario Buono (stovetop)", "query": "Hario Buono gooseneck kettle stovetop",
+             "note": "The classic stovetop gooseneck — cheap, light, and pours well. Pair with a thermometer for control.",
+             "pros": ["Cheap", "Light", "Great spout"], "cons": ["No temp control"]},
+            {"name": "Cosori / Bonavita (electric)", "query": "Cosori gooseneck electric kettle",
+             "note": "Accurate-enough electric with presets at half the Fellow price. The pragmatic daily pick.",
+             "pros": ["Good value", "Temp presets"], "cons": ["Plain build"]},
+        ],
+        "advice": (
+            "Electric models add temperature control, which matters for light roasts (sour if too "
+            "cool) and dark roasts (bitter if too hot). Stovetop is fine if you use a thermometer or "
+            "just brew medium roasts. See our temperature guide in the electric-kettle write-up."
+        ),
+        "faq": [
+            ("Do I need an electric gooseneck kettle?",
+             "Not strictly. A stovetop Hario Buono plus a thermometer works; electric wins on convenience and temperature accuracy."),
+            ("Why gooseneck and not a normal kettle?",
+             "The narrow spout gives a slow, precise, controllable pour — essential for even pour-over extraction. A regular spout pours too fast and unevenly."),
+        ],
+        "related": ["best-electric-kettle-for-pour-over", "best-pour-over-coffee-setup-for-beginners", "best-coffee-scale-for-espresso"],
+    },
+    {
+        "slug": "best-decaf-coffee-beans",
+        "title": "Best Decaf Coffee Beans (That Don't Taste Like a Compromise)",
+        "meta": "Modern decaf can taste great. The best decaf beans — swiss-water and solvent-free — for evening cups without the jitters.",
+        "h1": "Best Decaf Coffee Beans",
+        "intro": (
+            "Decaf has a bad reputation it no longer deserves. Swiss-water and modern solvent-free "
+            "processes keep most of the flavor, so a good decaf tastes like coffee — not cardboard. "
+            "This guide covers the best decaf beans for filter, espresso, and evening drinking."
+        ),
+        "picks": [
+            {"name": "Swiss-water decaf medium roast", "query": "swiss water decaf coffee beans medium roast",
+             "note": "Chemical-free decaf that preserves flavor best. The safe, great-tasting start.",
+             "pros": ["Clean process", "Tasty", "Versatile"], "cons": ["Pricier than basic decaf"]},
+            {"name": "Decaf espresso blend", "query": "decaf espresso beans whole bean",
+             "note": "Roasted for espresso — pulls a credible crema for evening lattes.",
+             "pros": ["Good crema", "Evening-friendly"], "cons": ["Slightly flatter than regular"]},
+            {"name": "Decaf single-origin", "query": "decaf single origin coffee beans",
+             "note": "For when you want origin character without caffeine. More demanding to brew.",
+             "pros": ["Flavorful", "Educational"], "cons": ["Less forgiving"]},
+        ],
+        "advice": (
+            "Look for 'swiss water' or 'mountain water' process on the bag — it's the cleanest-tasting "
+            "decaf. Treat decaf like regular coffee: whole bean, fresh, ground right before brewing. "
+            "Use the Caffeine Calculator on this site to plan an evening cup that keeps you asleep."
+        ),
+        "faq": [
+            ("Does decaf still have caffeine?",
+             "A little — typically 2–5 mg per cup vs 95+ mg for regular. Not zero, but negligible for most people."),
+            ("What's the best decaf process?",
+             "Swiss-water (or mountain-water) is widely considered the best-tasting, chemical-free method. Avoid vague 'decaffeinated' with no process stated."),
+        ],
+        "related": ["best-coffee-beans-for-beginners", "best-coffee-beans-for-espresso", "cold-brew-vs-iced-coffee"],
+    },
+    {
+        "slug": "how-to-clean-a-coffee-maker",
+        "title": "How to Clean a Coffee Maker (Descale & De-gunk in 20 Minutes)",
+        "meta": "Oils and limescale ruin coffee and taste. The simple, safe way to clean any drip, espresso, or French press maker.",
+        "h1": "How to Clean a Coffee Maker",
+        "intro": (
+            "Coffee oils go rancid and water leaves limescale — both make coffee taste stale and slow "
+            "your machine. A 20-minute clean every month fixes it. This guide covers descaling and "
+            "cleaning for drip, espresso, and French press brewers, safely."
+        ),
+        "picks": [
+            {"name": "Descaling solution / citric acid", "query": "coffee machine descaling solution",
+             "note": "A dedicated descaler (or food-grade citric acid) dissolves limescale without damaging parts.",
+             "pros": ["Removes scale", "Safe", "Cheap"], "cons": ["Needs a rinse cycle"]},
+            {"name": "Coffee equipment cleaning tablets", "query": "coffee machine cleaning tablets",
+             "note": "For espresso machines: backflush tablets remove coffee oils from the group head.",
+             "pros": ["Cuts oils", "Espresso-specific"], "cons": ["Espresso only"]},
+            {"name": "Soft brush + cloth", "query": "coffee maker cleaning brush",
+             "note": "A small brush reaches the carafe lid and crevices where mold hides.",
+             "pros": ["Cheap", "Thorough"], "cons": ["Manual"]},
+        ],
+        "advice": (
+            "Descale monthly in hard-water areas: run a 1:1 water/descaler (or citric acid) brew cycle, "
+            "then two plain-water cycles to rinse. For espresso, backflush with a cleaning tablet "
+            "weekly. French press just needs hot soapy water and a scrub — no descaler. Rinse all "
+            "parts well; residue tastes worse than the scale you removed."
+        ),
+        "faq": [
+            ("How often should I clean my coffee maker?",
+             "Descale every 1–3 months (more often with hard water); wipe daily; deep-clean removable parts weekly."),
+            ("Can I use vinegar to descale?",
+             "Yes, white vinegar works but smells strong and needs extra rinses. A dedicated descaler or citric acid is cleaner and faster."),
+        ],
+        "related": ["best-drip-coffee-maker-for-home", "best-french-press-for-one-person", "best-espresso-machine-under-300-for-beginners"],
+    },
+    {
+        "slug": "best-coffee-maker-for-office",
+        "title": "Best Coffee Maker for the Office (Batch, Durable, Low-Fuss)",
+        "meta": "Feeding a team? The best office coffee makers — batch brewers, thermal carafes, and pod stations — that survive daily use.",
+        "h1": "Best Coffee Maker for the Office",
+        "intro": (
+            "Office coffee has different rules than home: it must brew a lot, stay hot, and survive "
+            "people who don't read manuals. This guide covers batch brewers, thermal-carafe machines, "
+            "and pod stations that hold up in a shared space."
+        ),
+        "picks": [
+            {"name": "Technivorm Moccamaster (batch)", "query": "Technivorm Moccamaster coffee maker",
+             "note": "Bulletproof SCA brewer that pumps out clean pots all day. The buy-once office pick.",
+             "pros": ["Durable", "Great temp", "Fast batch"], "cons": ["Pricey"]},
+            {"name": "Bunn Commercial pourover", "query": "Bunn commercial coffee maker",
+             "note": "The diner standard: brews a full pot in ~3 minutes and never quits. Built for volume.",
+             "pros": ["Fast", "Tough", "High volume"], "cons": ["Basic look", "Needs plumbing-ish"]},
+            {"name": "Pod station (shared)", "query": "office pod coffee machine",
+             "note": "For variety with zero skill: a pod machine lets each person pick their own cup.",
+             "pros": ["Zero skill", "Variety"], "cons": ["Per-cup cost", "Waste"]},
+        ],
+        "advice": (
+            "For 5+ people, a thermal-carafe batch brewer beats a glass hot-plate (which scorches). "
+            "A Bunn or Moccamaster keeps delivering. If the team wants choice, a pod station is "
+            "frictionless but costs more per cup and creates waste. Whatever you pick, set a cleaning "
+            "rota — shared machines get gross fast."
+        ),
+        "faq": [
+            ("What's the best office coffee maker for a small team?",
+             "A thermal-carafe SCA brewer (Technivorm Moccamaster or Bonavita) for quality, or a Bunn for pure volume and durability."),
+            ("Pod machine or batch brewer for office?",
+             "Batch brewer for a cohesive coffee culture and lower per-cup cost; pod machine for individual choice and zero learning curve."),
+        ],
+        "related": ["best-drip-coffee-maker-for-home", "best-coffee-maker-for-camping", "best-milk-frother-for-latte-at-home"],
+    },
+    {
+        "slug": "best-moka-pot",
+        "title": "Best Moka Pot (Stovetop Espresso-Style Coffee)",
+        "meta": "The moka pot makes bold, espresso-style coffee on any stove for under $40. The best sizes and brands, plus how to avoid burnt brews.",
+        "h1": "Best Moka Pot",
+        "intro": (
+            "The moka pot is the original stovetop espresso: a $30 aluminum or steel pot that brews a "
+            "bold, intense coffee on any heat source. It's the cheapest 'real' espresso-style option "
+            "and a camping favorite. This guide covers the best moka pots and how to brew without "
+            "scorching."
+        ),
+        "picks": [
+            {"name": "Bialetti Moka Express", "query": "Bialetti Moka Express stovetop",
+             "note": "The icon: octagonal aluminum, 3-cup is the sweet spot for one or two. Indestructible and cheap.",
+             "pros": ["Classic", "Cheap", "Durable"], "cons": ["Not true 9-bar", "Aluminum"]},
+            {"name": "Bialetti Venus (steel)", "query": "Bialetti Venus stainless steel moka",
+             "note": "Stainless version — works on induction, looks smarter, same great brew.",
+             "pros": ["Induction-ready", "Durable", "Sleek"], "cons": ["Pricier"]},
+            {"name": "Alessi Moka", "query": "Alessi moka pot designer",
+             "note": "Design-object moka for the counter; brews like a Bialetti with more style.",
+             "pros": ["Beautiful", "Great gift"], "cons": ["Cost", "Style over function"]},
+        ],
+        "advice": (
+            "Use a medium-fine grind (not espresso-fine), fill water below the safety valve, use low "
+            "heat, and take it off the moment you hear a sputtering gurgle — that's when it's done. "
+            "Let it finish on residual heat and you'll get burnt, bitter coffee. Pre-heat the water "
+            "to speed it up. Pair with our 'espresso without a machine' guide for the full method."
+        ),
+        "faq": [
+            ("Is a moka pot real espresso?",
+             "Not true 9-bar espresso, but it makes a strong, espresso-style concentrate good for lattes and americanos. It's the cheapest path to that intensity."),
+            ("Why does my moka pot taste burnt?",
+             "Usually too-high heat or brewing past the gurgle. Use low heat, medium-fine grind, and stop as soon as it sputters."),
+        ],
+        "related": ["how-to-make-espresso-at-home-without-machine", "best-portable-espresso-maker", "best-coffee-beans-for-espresso"],
+    },
 ]
