@@ -160,6 +160,16 @@ def render_tools():
     <button class="btn" onclick="solveCost()">Calculate</button>
     <p class="result" id="c-out"></p>
   </div>
+
+  <div class="calc" id="cold">
+    <h2>Cold Brew Calculator</h2>
+    <p>Concentrate ratio is typically 1:8 (coffee:water). Fill any two fields; we solve the third and estimate servings after a 1:1 dilution.</p>
+    <label>Coffee (g) <input type="number" id="cb-coffee" min="0" step="1" placeholder="100"></label>
+    <label>Water (ml) <input type="number" id="cb-water" min="0" step="10" placeholder="800"></label>
+    <label>Ratio (1:N) <input type="number" id="cb-ratio" min="1" step="0.5" placeholder="8"></label>
+    <button class="btn" onclick="solveColdBrew()">Calculate</button>
+    <p class="result" id="cb-out"></p>
+  </div>
 </section>
 <script src="/static/js/brew.js" defer></script>'''
     return page("Free Brew Calculators — ratio & cost per cup", "Free coffee calculators: brew ratio (coffee/water/ratio solver) and cost-per-cup. Runs in your browser, no sign-up.", body, canonical="/tools.html")

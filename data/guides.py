@@ -47,7 +47,7 @@ GUIDES = [
             ("15-bar or 20-bar — does it matter?",
              "Extraction happens around 9 bar at the puck. Extra pump headroom (20-bar) helps flow consistency slightly but grind and technique matter far more."),
         ],
-        "related": ["best-espresso-machine-for-small-apartment", "best-budget-espresso-machine-under-100", "best-coffee-grinder-for-french-press"],
+        "related": ["best-espresso-machine-for-small-apartment", "best-budget-espresso-machine-under-100", "best-grinder-for-espresso"],
     },
     {
         "slug": "best-espresso-machine-for-small-apartment",
@@ -522,5 +522,121 @@ GUIDES = [
              "Usually too little coffee or too short a steep. Use a 1:8 concentrate ratio and steep a full 16 hours."),
         ],
         "related": ["best-french-press-for-one-person", "best-pour-over-coffee-setup-for-beginners"],
+    },
+    {
+        "slug": "best-grinder-for-espresso",
+        "title": "Best Grinder for Espresso (2026): The Upgrade That Fixes Your Shots",
+        "meta": "Espresso lives or dies on the grind. The best beginner espresso grinders — electric and hand — that actually dial in, plus what to avoid.",
+        "h1": "Best Grinder for Espresso",
+        "intro": (
+            "If your shots taste sour, bitter, or just inconsistent, the grinder is almost always the "
+            "cause — not the machine. Espresso needs a very fine, uniform grind with tiny adjustments. "
+            "This guide covers the grinders that actually dial in at the fine end, from an affordable "
+            "electric to a hand grinder that beats machines twice its price."
+        ),
+        "picks": [
+            {"name": "Baratza Encore ESP", "query": "Baratza Encore ESP grinder",
+             "note": "The standard entry electric espresso grinder: true micro-steps at the fine end, reliable, repairable.",
+             "pros": ["Real espresso adjustment", "Reliable", "Repairable"], "cons": ["~$170", "Filter only okay"]},
+            {"name": "1Zpresso J-Max (hand)", "query": "1Zpresso J-Max hand grinder",
+             "note": "Espresso-tuned hand grinder with 8.8 micron steps. Matches $300+ electrics for consistency — just add cranking.",
+             "pros": ["Espresso-grade", "Silent", "Portable"], "cons": ["Manual", "Slower"]},
+            {"name": "Fellow Opus", "query": "Fellow Opus grinder",
+             "note": "Conical burr electric with an espresso range and single-dose lid. Sleek and quiet-ish for ~$195.",
+             "pros": ["Good range", "Sleek", "Quiet-ish"], "cons": ["Some retention", "Pricier"]},
+            {"name": "DF64 Gen 2", "query": "DF64 single dose grinder",
+             "note": "The popular single-dose step-up (~$350) with flat burrs and huge clarity. For when you've outgrown entry grinders.",
+             "pros": ["Single dose", "Excellent clarity", "Upgrade path"], "cons": ["~$350", "Needs tuning"]},
+        ],
+        "advice": (
+            "Budget the grinder at least as much as the machine. For espresso you need a grinder that "
+            "adjusts finely and consistently at the fine end — a filter-only grinder set 'extra fine' "
+            "usually clumps and channels. A hand grinder like the 1Zpresso J-Max delivers espresso-grade "
+            "consistency for a fraction of the price; the only cost is 20–30 seconds of cranking."
+        ),
+        "faq": [
+            ("Do I need a special grinder for espresso?",
+             "Yes. Espresso needs a very fine, consistent grind with micro-adjustments. An espresso-capable grinder (Baratza Encore ESP, 1Zpresso J-Max) is essential — a filter grinder won't dial in."),
+            ("Is a hand grinder good enough for espresso?",
+             "Surprisingly yes. The 1Zpresso J-Max and similar produce espresso-grade consistency and cost less than many electrics; the trade-off is manual effort."),
+            ("What's the best budget espresso grinder?",
+             "The Baratza Encore ESP is the entry standard (~$170) with real espresso steps. Below that, a 1Zpresso J-Max hand grinder wins on consistency."),
+        ],
+        "related": ["best-espresso-machine-under-300-for-beginners", "best-quiet-coffee-grinder-under-100", "best-coffee-scale-for-espresso", "best-budget-espresso-machine-under-100"],
+    },
+    {
+        "slug": "best-drip-coffee-maker-for-home",
+        "title": "Best Drip Coffee Maker for Home (Reliable Daily Brewers)",
+        "meta": "Want great coffee without the ritual? The best home drip machines with real temperature control — from budget SCA to buy-it-for-life.",
+        "h1": "Best Drip Coffee Maker for Home",
+        "intro": (
+            "A good drip machine is set-and-forget: fill it, press start, and come back to a full carafe. "
+            "The difference between a great one and a bad one is almost entirely temperature. This guide "
+            "covers brewers that actually hold the right range, from a budget SCA pick to a lifetime buy."
+        ),
+        "picks": [
+            {"name": "Technivorm Moccamaster", "query": "Technivorm Moccamaster coffee maker",
+             "note": "The buy-it-for-life pick: hand-built, SCA certified, holds temp perfectly, lasts decades.",
+             "pros": ["SCA certified", "Bulletproof", "Great temp"], "cons": ["Pricey", "No timer on some"]},
+            {"name": "Breville Precision Brewer", "query": "Breville Precision Brewer coffee maker",
+             "note": "Precise temperature, SCA Gold mode, and presets (including cold brew). The most versatile automatic.",
+             "pros": ["Temp control", "Versatile", "SCA"], "cons": ["Big", "Pricier"]},
+            {"name": "Bonavita Connoisseur", "query": "Bonavita Connoisseur coffee maker",
+             "note": "Budget SCA-certified brewer with a thermal carafe. The pragmatic daily workhorse.",
+             "pros": ["SCA", "Affordable", "Thermal carafe"], "cons": ["Basic", "Plastic parts"]},
+            {"name": "OXO Brew 8-Cup", "query": "OXO brew 8 cup coffee maker",
+             "note": "SCA certified with a rainmaker showerhead and clean looks at a fair price.",
+             "pros": ["SCA", "Good value", "Clean"], "cons": ["Carafe drips a bit"]},
+        ],
+        "advice": (
+            "The single most important spec is temperature: look for SCA certification or a stated "
+            "195–205°F (90–96°C) brew range. A thermal carafe keeps coffee hot without a hot plate that "
+            "scorches it. A bloom/pre-infusion stage improves flavor. Skip the $20 unpressurized makers "
+            "that brew at an undefined temperature."
+        ),
+        "faq": [
+            ("What makes a good drip coffee maker?",
+             "Temperature control. An SCA-certified machine that holds 195–205°F brews far better than a cheap one that spikes or underheats. Thermal carafe beats a hot plate."),
+            ("Is a drip machine better than pour-over?",
+             "Different goals. Drip is set-and-forget for multiple cups; pour-over gives more control and a cleaner cup but needs your attention. Many homes keep both."),
+        ],
+        "related": ["best-pour-over-coffee-setup-for-beginners", "best-electric-kettle-for-pour-over", "best-coffee-maker-for-camping"],
+    },
+    {
+        "slug": "best-portable-espresso-maker",
+        "title": "Best Portable Espresso Maker (Hand-Pump & Travel)",
+        "meta": "Real espresso anywhere — no outlet required. The best hand-pump and travel espresso makers, from the trail to the car.",
+        "h1": "Best Portable Espresso Maker",
+        "intro": (
+            "Portable espresso makers use hand pressure (or your car's 12V outlet) to pull a pressurized "
+            "shot with crema — no electricity. They're forgiving and make a credible espresso on a trail, "
+            "in a hotel room, or on a road trip. Here are the ones worth carrying."
+        ),
+        "picks": [
+            {"name": "Wacaco Picopresso", "query": "Wacaco Picopresso portable espresso",
+             "note": "The best travel shots: true 51mm portafilter-style pressure, compact, well built. The enthusiast pick.",
+             "pros": ["Real pressure", "Great shots", "Compact"], "cons": ["Manual", "Needs fine grind"]},
+            {"name": "Wacaco Nanopresso", "query": "Wacaco Nanopresso portable espresso maker",
+             "note": "Cheaper, smaller, takes ground or Nespresso-style pods. Lower pressure but very capable for ~$60.",
+             "pros": ["Cheap", "Versatile", "Tiny"], "cons": ["Less pressure", "More effort"]},
+            {"name": "Staresso Classic", "query": "Staresso portable espresso maker",
+             "note": "Budget manual maker that also froths milk — good for lattes on the go.",
+             "pros": ["Cheap", "Froths milk", "Portable"], "cons": ["Build quality", "Variable"]},
+            {"name": "Handpresso Auto (12V)", "query": "Handpresso Auto 12v espresso",
+             "note": "Plugs into a car's 12V socket for real espresso on road trips. Bulky but novel.",
+             "pros": ["Car use", "Real espresso"], "cons": ["Needs 12V", "Bulky"]},
+        ],
+        "advice": (
+            "These are pressurized, so they're forgiving with grind and make a real crema using just hot "
+            "water and ground coffee. You still want a fine-ish grind and a hand grinder for freshness. "
+            "They're not 9-bar café machines, but they beat instant coffee anywhere on earth."
+        ),
+        "faq": [
+            ("Can you really make espresso while traveling?",
+             "Yes. Hand-pump makers like the Wacaco Picopresso produce pressurized shots with crema using only hot water and ground coffee — no electricity."),
+            ("Picopresso vs Nanopresso?",
+             "The Picopresso has true portafilter-style pressure and pulls better shots; the Nanopresso is cheaper, smaller, and uses pods or ground but at lower pressure."),
+        ],
+        "related": ["best-coffee-maker-for-camping", "best-aeropress-setup-for-beginners", "how-to-make-espresso-at-home-without-machine"],
     },
 ]

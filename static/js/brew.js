@@ -28,3 +28,19 @@ function solveCost(){
   var month = perCup * day * 30;
   out.textContent = '≈ $' + perCup.toFixed(2) + ' per cup · about $' + month.toFixed(0) + '/month at ' + day + ' cup' + (day===1?'':'s') + '/day.';
 }
+
+function solveColdBrew(){
+  var c = num('cb-coffee'), w = num('cb-water'), r = num('cb-ratio');
+  var out = document.getElementById('cb-out');
+  var filled = [c!==null, w!==null, r!==null].filter(Boolean).length;
+  if(filled < 2){ out.textContent = 'Fill any two fields to solve the third.'; return; }
+  if(c!==null && r!==null && w===null){
+    w = c * r; out.textContent = c + ' g coffee + ' + Math.round(w) + ' ml water = 1:' + r + ' concentrate. Dilute 1:1 → ~' + (w*2/200).toFixed(1) + ' cups.';
+  } else if(w!==null && r!==null && c===null){
+    c = w / r; out.textContent = c.toFixed(1) + ' g coffee + ' + Math.round(w) + ' ml water = 1:' + r + ' concentrate. Dilute 1:1 → ~' + (w*2/200).toFixed(1) + ' cups.';
+  } else if(c!==null && w!==null && r===null){
+    r = (w / c).toFixed(1); out.textContent = c + ' g coffee + ' + Math.round(w) + ' ml water = 1:' + r + ' concentrate. Dilute 1:1 → ~' + (w*2/200).toFixed(1) + ' cups.';
+  } else {
+    out.textContent = 'Concentrate: ' + c + ' g coffee + ' + Math.round(w) + ' ml water (1:' + (w/c).toFixed(1) + '). Dilute 1:1 → ~' + (w*2/200).toFixed(1) + ' cups.';
+  }
+}
