@@ -994,4 +994,369 @@ GUIDES = [
         ],
         "related": ["how-to-make-espresso-at-home-without-machine", "best-portable-espresso-maker", "best-coffee-beans-for-espresso"],
     },
+    {
+        "slug": "best-coffee-gifts-for-coffee-lovers",
+        "title": "Best Coffee Gifts for Coffee Lovers (2026 Gift Guide)",
+        "meta": "Stuck on a gift for the coffee person in your life? The best coffee gear gifts that actually get used — from beginners to snobs.",
+        "h1": "Best Coffee Gifts for Coffee Lovers",
+        "intro": (
+            "Coffee people are easy to gift well — almost any upgrade to their routine gets used daily. "
+            "This guide ranks gifts by who they suit, from a first French press to a precision kettle "
+            "for the already-serious drinker. Everything here is genuinely useful, not novelty."
+        ),
+        "picks": [
+            {"name": "AeroPress Go", "query": "AeroPress Go travel coffee press",
+             "note": "The safest crowd-pleaser: compact, near-foolproof, and great for travel or desk. Almost everyone enjoys it.",
+             "pros": ["Loved by all levels", "Portable", "Affordable"], "cons": ["One cup at a time"]},
+            {"name": "Hario V60 kit", "query": "Hario V60 pour over kit",
+             "note": "A dripper + filters + server bundle makes a complete, giftable pour-over setup.",
+             "pros": ["Complete kit", "Stylish"], "cons": ["Needs kettle + grinder"]},
+            {"name": "Fellow Stagg EKG kettle", "query": "Fellow Stagg EKG gooseneck kettle",
+             "note": "The wow-factor gift for someone who already brews pourover. Beautiful and precise.",
+             "pros": ["Gorgeous", "Accurate temp"], "cons": ["Pricey for a gift"]},
+            {"name": "Fresh bean sampler", "query": "coffee sampler gift set whole bean",
+             "note": "A box of different roasts is a low-risk gift that expands their palate.",
+             "pros": ["Tasty", "Discovery", "Cheap"], "cons": ["Perishable"]},
+        ],
+        "advice": (
+            "Match the gift to their level. A beginner gets the most from a complete starter (see our "
+            "starter-kit guide); a seasoned drinker appreciates a precision kettle or a good scale. "
+            "Avoid gimmicky 'color-changing' mugs — gear that improves the cup always wins."
+        ),
+        "faq": [
+            ("What is the best coffee gift for a beginner?",
+             "A complete pour-over or AeroPress kit. It's approachable, cheap, and they'll actually use it every day."),
+            ("What do you get a coffee snob who has everything?",
+             "A precision gooseneck kettle (Fellow Stagg EKG) or a high-end hand grinder (1Zpresso). Both meaningfully improve an already-good routine."),
+        ],
+        "related": ["best-coffee-starter-kit-for-beginners", "best-aeropress-setup-for-beginners", "best-french-press-for-one-person"],
+    },
+    {
+        "slug": "best-coffee-starter-kit-for-beginners",
+        "title": "The Complete Beginner Coffee Starter Kit (Everything in One Place)",
+        "meta": "Don't buy random gear. The exact beginner coffee kit — grinder, kettle, dripper, scale, beans — that makes great coffee from day one.",
+        "h1": "The Complete Beginner Coffee Starter Kit",
+        "intro": (
+            "Starting coffee at home is mostly buying the right five things once, then never thinking "
+            "about gear again. This guide lists a balanced starter kit — grinder, kettle, brewer, scale, "
+            "beans — that makes cafe-quality coffee without overwhelming you or your wallet."
+        ),
+        "picks": [
+            {"name": "Hand grinder (1Zpresso/Timemore)", "query": "1Zpresso hand grinder",
+             "note": "Start with a hand grinder: great consistency, silent, and you skip the electric premium.",
+             "pros": ["Consistent", "Cheap", "Silent"], "cons": ["Manual"]},
+            {"name": "Gooseneck kettle", "query": "gooseneck kettle pour over",
+             "note": "A stovetop gooseneck is enough to start; electric adds temperature control later.",
+             "pros": ["Precise pour", "Cheap stovetop"], "cons": ["No temp control on stovetop"]},
+            {"name": "Hario V60 dripper", "query": "Hario V60 pour over dripper",
+             "note": "The beginner-standard brewer. Pair with paper filters and you're set.",
+             "pros": ["Cheap", "Great cup"], "cons": ["Needs technique"]},
+            {"name": "Coffee scale", "query": "Timemore coffee scale",
+             "note": "A $30 scale with a timer turns guesswork into repeatable recipes.",
+             "pros": ["Repeatable", "Timer"], "cons": ["One more item"]},
+        ],
+        "advice": (
+            "Buy in this order if budget is tight: grinder first (fresh grounds matter most), then "
+            "brewer, then kettle, then scale, then beans. Use our Brew Ratio Calculator to lock a "
+            "1:16 recipe and stop eyeballing. A medium-roast whole bean bag finishes the kit."
+        ),
+        "faq": [
+            ("What do I need to start making coffee at home?",
+             "Five things: a burr grinder, a brewer (V60 or French press), a kettle, a scale, and fresh beans. Everything else is optional."),
+            ("Can I start with a $50 kit?",
+             "Easily — see our cheap setup under $50 guide. A hand grinder, pour-over cone, and beans already beat most instant coffee."),
+        ],
+        "related": ["best-pour-over-coffee-setup-for-beginners", "best-quiet-coffee-grinder-under-100", "best-coffee-beans-for-beginners"],
+    },
+    {
+        "slug": "best-cheap-coffee-setup-under-50",
+        "title": "Best Cheap Coffee Setup Under $50 (Surprisingly Good)",
+        "meta": "Great coffee doesn't need a big budget. The best under-$50 setup — French press, hand grinder, pour-over, moka — that punches above its price.",
+        "h1": "Best Cheap Coffee Setup Under $50",
+        "intro": (
+            "You can make genuinely good coffee for under $50 — the gear just has to be the right "
+            "kind. Skip the $20 electric drip maker and put the money into a burr grinder and a "
+            "manual brewer. This guide lists the cheapest combos that still taste great."
+        ),
+        "picks": [
+            {"name": "Bodum Chambord French press", "query": "Bodum Chambord French press 12 oz",
+             "note": "A 12-oz press is ~$20 and makes full-bodied coffee with zero electricity.",
+             "pros": ["Cheap", "No power", "Durable"], "cons": ["Sediment"]},
+            {"name": "Timemore C2 hand grinder", "query": "Timemore C2 hand grinder",
+             "note": "The single best upgrade under $50 — even, silent grinding that transforms cheap brewers.",
+             "pros": ["Consistent", "Silent", "Cheap"], "cons": ["Manual"]},
+            {"name": "Collapsible pour-over cone", "query": "collapsible pour over coffee dripper",
+             "note": "A silicone V60-style dripper plus filters is a few dollars and packs flat.",
+             "pros": ["Tiny", "Clean cup"], "cons": ["Needs kettle"]},
+            {"name": "Bialetti Moka pot", "query": "Bialetti Moka Express stovetop",
+             "note": "Under $40 for bold, espresso-style coffee on any stove.",
+             "pros": ["Intense", "Cheap"], "cons": ["Not true espresso"]},
+        ],
+        "advice": (
+            "Spend the biggest chunk on the grinder — fresh, even grounds are what separate cheap "
+            "coffee from bad coffee. A $15 hand grinder on a $10 French press beats a $50 electric "
+            "maker with pre-ground coffee every time."
+        ),
+        "faq": [
+            ("Can you make good coffee for under $50?",
+             "Yes. A hand grinder plus any manual brewer (French press, pour-over, moka) makes coffee that rivals much pricier setups."),
+            ("What should I buy first on a tiny budget?",
+             "A burr hand grinder. It improves whatever you brew and costs little; build the rest of the kit around it."),
+        ],
+        "related": ["best-french-press-for-one-person", "best-coffee-maker-for-camping", "how-to-make-espresso-at-home-without-machine"],
+    },
+    {
+        "slug": "best-coffee-travel-mug-thermos",
+        "title": "Best Coffee Travel Mug & Thermos (Keeps It Hot for Hours)",
+        "meta": "Tired of lukewarm coffee? The best travel mugs and thermoses that actually hold heat for hours — leakproof and easy to drink from.",
+        "h1": "Best Coffee Travel Mug & Thermos",
+        "intro": (
+            "A good travel mug is the difference between coffee you finish and coffee you dump at 10am. "
+            "The best ones hold heat for 6+ hours, seal leakproof, and don't taste like plastic. This "
+            "guide covers the mugs worth carrying."
+        ),
+        "picks": [
+            {"name": "Yeti Rambler mug", "query": "Yeti Rambler coffee mug",
+             "note": "Bulletproof stainless with a magnetic lid; holds heat for hours and survives drops.",
+             "pros": ["Tough", "Leakproof-ish", "Hot long"], "cons": ["Heavy", "Pricey"]},
+            {"name": "Hydro Flask coffee flask", "query": "Hydro Flask coffee flask",
+             "note": "Light, colorful, and great heat retention with a flexible straw or sip lid.",
+             "pros": ["Light", "Hot long", "Fun colors"], "cons": ["Lid wears"]},
+            {"name": "Zojirushi stainless", "query": "Zojirushi travel mug stainless",
+             "note": "The heat-retention king — often still warm 8+ hours. The sensible pick.",
+             "pros": ["Best insulation", "Leakproof"], "cons": ["Bulky"]},
+            {"name": "Contigo Autoseal", "query": "Contigo travel coffee mug",
+             "note": "One-handed, truly leakproof lid for commuters. Cheap and dependable.",
+             "pros": ["Leakproof", "Cheap", "One-hand"], "cons": ["Heat fades sooner"]},
+        ],
+        "advice": (
+            "Pre-heat the mug with hot water for 30 seconds before filling — it noticeably extends "
+            "how long your coffee stays hot. Look for a fully sealing lid if it rides in a bag."
+        ),
+        "faq": [
+            ("What travel mug keeps coffee hot longest?",
+             "Zojirushi and Yeti lead on pure heat retention; both keep coffee drinkable for 6-8 hours."),
+            ("Are travel mugs leakproof?",
+             "The best (Contigo Autoseal, Zojirushi) seal fully. Cheap screw-top mugs often leak through the lid."),
+        ],
+        "related": ["best-coffee-maker-for-camping", "best-coffee-maker-for-office", "best-aeropress-setup-for-beginners"],
+    },
+    {
+        "slug": "best-coffee-grinder-for-pour-over",
+        "title": "Best Coffee Grinder for Pour-Over (Even & Repeatable)",
+        "meta": "Pour-over lives on a consistent medium grind. The best pour-over grinders — hand and electric — that hit the sweet spot without overpaying.",
+        "h1": "Best Coffee Grinder for Pour-Over",
+        "intro": (
+            "Pour-over is forgiving on grinder quality, but an even medium grind still makes or breaks "
+            "the cup. You don't need an espresso-grade grinder — you need consistency at the medium "
+            "end. This guide covers the best pour-over grinders at every budget."
+        ),
+        "picks": [
+            {"name": "Timemore C2 (hand)", "query": "Timemore C2 hand grinder",
+             "note": "Excellent medium consistency for the price; near-silent and portable.",
+             "pros": ["Even", "Cheap", "Silent"], "cons": ["Manual"]},
+            {"name": "1Zpresso Q2 (hand)", "query": "1Zpresso hand grinder",
+             "note": "A step up in build and consistency; great if you brew daily.",
+             "pros": ["Premium feel", "Very even"], "cons": ["Manual", "Pricier"]},
+            {"name": "Baratza Encore", "query": "Baratza Encore burr grinder",
+             "note": "The reliable electric; true burr steps reach a clean medium setting.",
+             "pros": ["Electric", "Reliable"], "cons": ["~$100+"]},
+            {"name": "Comandante C40", "query": "Comandante coffee grinder",
+             "note": "The enthusiast hand grinder — superb consistency across the whole range.",
+             "pros": ["Top consistency", "Beautiful"], "cons": ["Expensive", "Manual"]},
+        ],
+        "advice": (
+            "Aim for a medium grind like table salt. An even grind means even extraction — no sour "
+            "center, no bitter edges. A hand grinder here is genuinely as good as electric for pour-over."
+        ),
+        "faq": [
+            ("Do I need an expensive grinder for pour-over?",
+             "No. A $30 hand grinder (Timemore C2) delivers the even medium grind pour-over wants; you pay more for convenience and finish."),
+            ("Hand or electric grinder for pour-over?",
+             "Hand is enough and cheaper; electric (Baratza Encore) wins on speed if you brew for several people daily."),
+        ],
+        "related": ["best-pour-over-coffee-setup-for-beginners", "best-coffee-grinder-for-french-press", "best-quiet-coffee-grinder-under-100"],
+    },
+    {
+        "slug": "best-single-serve-coffee-maker",
+        "title": "Best Single-Serve Coffee Maker (Pod & Non-Pod)",
+        "meta": "Want one cup, fast, with zero fuss? The best single-serve makers — Keurig, Nespresso, AeroPress, pour-over — for convenience without the compromise.",
+        "h1": "Best Single-Serve Coffee Maker",
+        "intro": (
+            "Single-serve is about convenience: one fresh cup, no carafe, no waste. The category is "
+            "dominated by pods, but pod-free options like AeroPress and pour-over make a far better "
+            "cup with similar effort. This guide covers the best single-serve makers, pods and not."
+        ),
+        "picks": [
+            {"name": "AeroPress", "query": "AeroPress coffee maker",
+             "note": "Our top single-serve pick: better coffee than any pod, ready in 2 minutes, trivial to clean.",
+             "pros": ["Best cup", "Fast", "Cheap long-term"], "cons": ["Manual"]},
+            {"name": "Keurig K-Elite", "query": "Keurig single serve coffee maker",
+             "note": "The convenience king: pod in, cup out, with strength and temp settings.",
+             "pros": ["Effortless", "Variety"], "cons": ["Per-cup cost", "Waste"]},
+            {"name": "Nespresso Vertuo", "query": "Nespresso Vertuo coffee machine",
+             "note": "Better coffee than Keurig with barcode-matched brewing; pods cost more.",
+             "pros": ["Good coffee", "Easy"], "cons": ["Pricey pods"]},
+            {"name": "Pour-over cone", "query": "Hario V60 pour over dripper",
+             "note": "The cheapest single cup with the best flavor — just needs a kettle and 3 minutes.",
+             "pros": ["Best flavor", "Cheap"], "cons": ["Hands-on"]},
+        ],
+        "advice": (
+            "If convenience is everything, a Keurig or Nespresso delivers it. If you want the best cup "
+            "for the same one-cup effort, an AeroPress or pour-over wins. Pods cost far more per cup "
+            "than grounds and create waste."
+        ),
+        "faq": [
+            ("What is the best single-serve coffee maker?",
+             "The AeroPress makes the best single cup with minimal fuss; Keurig/Nespresso win purely on push-button convenience."),
+            ("Are pod machines worth it?",
+             "For sheer convenience, yes. For value and taste, pod-free (AeroPress, pour-over) is better and cheaper per cup."),
+        ],
+        "related": ["best-coffee-maker-for-office", "best-drip-coffee-maker-for-home", "best-aeropress-setup-for-beginners"],
+    },
+    {
+        "slug": "best-coffee-beans-for-pour-over",
+        "title": "Best Coffee Beans for Pour-Over (Bright & Clean)",
+        "meta": "Pour-over shows off flavor, so bean choice matters. The best beans for pour-over — light, medium, and decaf — that brew bright and clean.",
+        "h1": "Best Coffee Beans for Pour-Over",
+        "intro": (
+            "Pour-over's clarity rewards good beans — it shows off the bright, floral, fruity notes "
+            "that get lost in milk or a French press. This guide covers the roast levels and bags "
+            "that shine in a V60, from light single-origins to easy medium roasts."
+        ),
+        "picks": [
+            {"name": "Light-roast single origin", "query": "single origin light roast coffee beans",
+             "note": "The pour-over showcase: bright acidity and clear origin character. Best for experienced palates.",
+             "pros": ["Complex", "Bright"], "cons": ["Harder to extract", "Pricey"]},
+            {"name": "Medium-roast whole bean", "query": "medium roast whole bean coffee",
+             "note": "The balanced everyday choice — sweet, clean, and forgiving in pourover.",
+             "pros": ["Balanced", "Forgiving"], "cons": ["Less 'exciting'"]},
+            {"name": "Decaf pour-over beans", "query": "decaf coffee beans whole bean",
+             "note": "Swiss-water decaf keeps the clarity without the caffeine — great for evening cups.",
+             "pros": ["Evening-friendly", "Clean"], "cons": ["Slightly flatter"]},
+        ],
+        "advice": (
+            "Buy whole bean with a roast date within 4 weeks and grind just before brewing. Light "
+            "roasts want slightly cooler water (~96C) and a finer grind than dark. Use the Brew Ratio "
+            "Calculator to keep dose consistent while you explore origins."
+        ),
+        "faq": [
+            ("What roast is best for pour-over?",
+             "Light to medium. Pour-over's clarity shows off light-roast origin character; dark roasts can taste ashy in a V60."),
+            ("Whole bean or pre-ground for pour-over?",
+             "Whole bean, always — pre-ground stales in days and clogs paper filters. A hand grinder is enough."),
+        ],
+        "related": ["best-coffee-beans-for-beginners", "best-pour-over-coffee-setup-for-beginners", "best-decaf-coffee-beans"],
+    },
+    {
+        "slug": "best-coffee-machine-under-200",
+        "title": "Best Coffee Machine Under $200 (Real Features, Real Coffee)",
+        "meta": "A $200 budget gets you actual features — temp control, grinders, or real espresso — not just a hot plate. The best machines under $200.",
+        "h1": "Best Coffee Machine Under $200",
+        "intro": (
+            "Under $200 you cross from 'coffee-flavored water' into real brewing: temperature control, "
+            "built-in grinders, or honest espresso. This guide covers the machines that deliver genuine "
+            "features at this price, not just a warmer plate."
+        ),
+        "picks": [
+            {"name": "Breville Precision Brewer", "query": "Breville Precision Brewer coffee maker",
+             "note": "Often found near $200 on sale: precise temp, SCA Gold mode, cold-brew preset. The feature king.",
+             "pros": ["Temp control", "Versatile", "SCA"], "cons": ["Sale price"]},
+            {"name": "De'Longhi Dinamica", "query": "DeLonghi Dinamica espresso machine",
+             "note": "A real bean-to-cup espresso machine under $200 on sale, with a built-in grinder.",
+             "pros": ["True espresso", "Grinder built in"], "cons": ["Sales only", "Plastic"]},
+            {"name": "Cuisinart 14-cup", "query": "Cuisinart coffee maker 14 cup",
+             "note": "A solid, programmable drip workhorse for households that want volume.",
+             "pros": ["Big batch", "Programmable"], "cons": ["Basic temp"]},
+            {"name": "Ninja DualBrew", "query": "Ninja coffee maker",
+             "note": "Brews both grounds and pods; flexible for mixed households.",
+             "pros": ["Grounds + pods", "Versatile"], "cons": ["Bulky"]},
+        ],
+        "advice": (
+            "Prioritize temperature control (SCA-certified or stated 195-205F) over bells and "
+            "whistles. A Precision Brewer or a sale Dinamica makes dramatically better coffee than a "
+            "no-name $200 drip maker with a hot plate."
+        ),
+        "faq": [
+            ("What is the best coffee machine under $200?",
+             "The Breville Precision Brewer (on sale) for drip versatility, or a De'Longhi Dinamica for true espresso — both deliver real features."),
+            ("Is a $200 machine much better than a $50 one?",
+             "Yes, if you pick by temperature control. A $200 SCA brewer makes noticeably better, consistent coffee than a cheap hot-plate maker."),
+        ],
+        "related": ["best-drip-coffee-maker-for-home", "best-espresso-machine-under-300-for-beginners", "best-single-serve-coffee-maker"],
+    },
+    {
+        "slug": "best-espresso-machine-for-office",
+        "title": "Best Espresso Machine for the Office (Small-Batch & Tough)",
+        "meta": "An office espresso machine must survive shared use and make decent shots fast. The best office-friendly espresso machines, from easy to serious.",
+        "h1": "Best Espresso Machine for the Office",
+        "intro": (
+            "Office espresso has different rules than home: it must be tough, quick, and forgiving "
+            "enough that a colleague who's never used one can pull a decent shot. This guide covers "
+            "the machines that hold up in a shared kitchen."
+        ),
+        "picks": [
+            {"name": "Breville Bambino", "query": "Breville Bambino espresso machine",
+             "note": "Fast heat-up and automatic milk texturing make it the most foolproof office pick.",
+             "pros": ["Fast", "Forgiving", "Small"], "cons": ["Busy at peak"]},
+            {"name": "De'Longhi La Specialista", "query": "DeLonghi La Specialista espresso machine",
+             "note": "Sensor grinding and a built-in tamper reduce skill needed — good for mixed-ability offices.",
+             "pros": ["Guided", "Solid build"], "cons": ["Larger"]},
+            {"name": "Gaggia Classic Pro", "query": "Gaggia Classic espresso machine",
+             "note": "A durable workhorse that serious staff will appreciate; more manual than the others.",
+             "pros": ["Tough", "Great shots"], "cons": ["Learning curve"]},
+            {"name": "Nespresso for office", "query": "Nespresso office coffee machine",
+             "note": "Zero-skill pods for the widest audience; pairs with an Aeroccino for lattes.",
+             "pros": ["Foolproof", "Variety"], "cons": ["Pod cost"]},
+        ],
+        "advice": (
+            "For a general office, lean easy: a Bambino or a Nespresso station. For a team of "
+            "enthusiasts, a Gaggia Classic rewards the effort. Set a weekly cleaning rota — shared "
+            "machines get gross fast, and a dirty group head ruins every shot."
+        ),
+        "faq": [
+            ("What espresso machine is best for an office?",
+             "The Breville Bambino for ease and speed, or a Nespresso station for zero-skill use. A Gaggia Classic suits enthusiast teams."),
+            ("How do you keep an office espresso machine clean?",
+             "A weekly backflush with cleaning tablets and a daily wipe of the steam wand. Shared machines need a rota or they sour quickly."),
+        ],
+        "related": ["best-espresso-machine-under-300-for-beginners", "best-coffee-maker-for-office", "best-milk-frother-for-latte-at-home"],
+    },
+    {
+        "slug": "best-coffee-maker-for-students-dorm",
+        "title": "Best Coffee Maker for Students & Dorms (Cheap, Tough, Small)",
+        "meta": "Dorm coffee has three rules: cheap, small, and unbreakable. The best student coffee makers — AeroPress, French press, mini pod, pour-over.",
+        "h1": "Best Coffee Maker for Students & Dorms",
+        "intro": (
+            "Student coffee gear has to survive a tiny desk, a shared kitchen, and a tight budget. "
+            "The best options are manual, compact, and nearly indestructible. This guide covers the "
+            "makers that get a student through finals week."
+        ),
+        "picks": [
+            {"name": "AeroPress Go", "query": "AeroPress Go travel coffee press",
+             "note": "The dorm MVP: all parts nest, unbreakable, makes a great cup in 2 minutes, easy clean in a sink.",
+             "pros": ["Tough", "Tiny", "Great cup"], "cons": ["One cup"]},
+            {"name": "Bodum Chambord 12 oz", "query": "Bodum Chambord French press 12 oz",
+             "note": "Glass breaks, but it's cheap to replace and needs no power or filters beyond grounds.",
+             "pros": ["Cheap", "No power"], "cons": ["Glass"]},
+            {"name": "Keurig K-Mini", "query": "Keurig K-Mini coffee maker",
+             "note": "For the no-effort crowd: tiny footprint, pod in, cup out.",
+             "pros": ["Tiny", "Effortless"], "cons": ["Pod cost", "Weak coffee"]},
+            {"name": "Collapsible pour-over", "query": "collapsible pour over coffee dripper",
+             "note": "A few grams of silicone plus filters — the lightest real brewer for a shared kitchen.",
+             "pros": ["Ultralight", "Cheap"], "cons": ["Needs kettle"]},
+        ],
+        "advice": (
+            "Prioritize unbreakable and tiny. An AeroPress Go or a French press survives a dorm better "
+            "than any glass electric maker. Pair with a hand grinder and pre-ground is fine if you "
+            "have no grinder yet — just buy small bags."
+        ),
+        "faq": [
+            ("What is the best coffee maker for a college dorm?",
+             "The AeroPress Go — unbreakable, tiny, makes a great cup, and cleans in a sink. A French press is the cheaper alternative."),
+            ("Do dorms allow coffee makers?",
+             "Most allow small, closed-element makers (AeroPress, French press, Keurig Mini). Avoid anything with an open hot plate if rules are strict."),
+        ],
+        "related": ["best-coffee-maker-for-camping", "best-french-press-for-one-person", "best-aeropress-setup-for-beginners"],
+    },
 ]
