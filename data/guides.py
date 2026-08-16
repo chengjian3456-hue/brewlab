@@ -1359,4 +1359,138 @@ GUIDES = [
         ],
         "related": ["best-coffee-maker-for-camping", "best-french-press-for-one-person", "best-aeropress-setup-for-beginners"],
     },
+    {
+        "slug": "best-milk-frother-for-latte-at-home",
+        "title": "Best Milk Frother for Latte at Home (2026)",
+        "meta": "The easiest ways to froth milk for lattes and cappuccinos at home — handheld, electric, and automatic frothers compared with our top picks.",
+        "h1": "Best Milk Frother for Latte at Home",
+        "intro": (
+            "You don't need a $1,000 espresso machine to enjoy a proper latte at home. A good milk "
+            "frother turns any coffee into a café-style drink for under $40. This guide compares the "
+            "three types — handheld wand, electric pitcher, and automatic — and picks the ones that "
+            "actually make silky microfoam instead of big bubbles."
+        ),
+        "picks": [
+            {"name": "Secura Automatic Frother", "query": "Secura automatic milk frother",
+             "note": "Our top pick: set it and forget it, heats and froths simultaneously, non-stick interior.",
+             "pros": ["Hands-off", "Consistent foam", "Easy clean"], "cons": ["Bulky", "One cup at a time"]},
+            {"name": "PowerLix Handheld Frother", "query": "PowerLix handheld milk frother",
+             "note": "Best cheap option: a battery wand that whips milk in a mug in 20 seconds. Pairs with any heater.",
+             "pros": ["Tiny", "Cheapest", "Portable"], "cons": ["Manual", "Needs separate heating"]},
+            {"name": "Breville Milk Cafe", "query": "Breville Milk Cafe frother",
+             "note": "Best for serious latte drinkers: dual discs for latte and cappuccino, temperature control.",
+             "pros": ["Pro-level foam", "Large capacity"], "cons": ["Pricey", "Counter space"]},
+        ],
+        "advice": (
+            "For lattes, aim for microfoam (small, glossy bubbles), not stiff meringue. Automatic pitchers "
+            "are the most forgiving. Use cold milk straight from the fridge and a stainless steel jug if "
+            "you go manual."
+        ),
+        "faq": [
+            ("Can you froth milk without a machine?",
+             "Yes — a handheld battery frother and a microwave or stove is enough for most people. An automatic pitcher just makes it easier."),
+            ("What milk froths best?",
+             "Whole dairy milk froths most reliably. Barista-style oat milks (e.g., Oatly) are the best plant alternative."),
+        ],
+        "related": ["best-espresso-machine-under-300-for-beginners", "best-coffee-machine-under-200", "best-gooseneck-kettle"],
+    },
+    {
+        "slug": "best-coffee-scale-for-espresso",
+        "title": "Best Coffee Scale for Espresso (2026)",
+        "meta": "Why a $20 scale beats guessing, and the best espresso scales with 0.1 g precision, timers, and a small footprint for your machine.",
+        "h1": "Best Coffee Scale for Espresso",
+        "intro": (
+            "Espresso is unforgiving: a half-gram difference changes the shot. A scale with 0.1 g precision "
+            "and a built-in timer is the single cheapest upgrade that improves your coffee. This guide picks "
+            "the scales that fit under a portafilter and survive a damp counter."
+        ),
+        "picks": [
+            {"name": "Timemore Black Mirror Basic", "query": "Timemore Black Mirror coffee scale",
+             "note": "Our top pick: 0.1 g precision, fast response, tiny footprint, looks good next to any machine.",
+             "pros": ["Accurate", "Compact", "Timer built in"], "cons": ["No app", "Fingerprint magnet"]},
+            {"name": "Hario V60 Drip Scale", "query": "Hario V60 drip scale",
+             "note": "The classic: reliable, simple, great for both pour-over and espresso dosing.",
+             "pros": ["Trusted", "Dual use"], "cons": ["Slower display", "Fragile tray"]},
+            {"name": "AWS LS-300", "query": "AWS LS-300 espresso scale",
+             "note": "Best budget: a lab-style scale that reads to 0.1 g and costs less than a bag of beans.",
+             "pros": ["Cheapest accurate", "Sturdy"], "cons": ["Plain looks", "No timer"]},
+        ],
+        "advice": (
+            "Get one that reads to 0.1 g and has a timer. Weigh your dose and your yield — that ratio is "
+            "what makes espresso repeatable. A scale pays for itself versus wasted beans in a week."
+        ),
+        "faq": [
+            ("Do I really need a scale for espresso?",
+             "Yes. Dosing by volume or feel drifts constantly; a scale is the cheapest way to make shots consistent."),
+            ("What precision do I need?",
+             "0.1 g is enough. You don't need 0.01 g for home espresso."),
+        ],
+        "related": ["best-grinder-for-espresso", "best-espresso-machine-under-300-for-beginners", "best-coffee-grinder-under-100"],
+    },
+    {
+        "slug": "best-coffee-beans-for-cold-brew",
+        "title": "Best Coffee Beans for Cold Brew (2026)",
+        "meta": "Cold brew needs different beans than hot coffee. Our picks for smooth, low-acid cold brew plus how to choose roast and grind.",
+        "h1": "Best Coffee Beans for Cold Brew",
+        "intro": (
+            "Cold brew extracts differently — slowly, with less acidity and more sweetness. Beans that taste "
+            "harsh as espresso often shine cold. This guide picks beans that brew smooth, chocolatey cold "
+            "coffee, and explains roast level and grind size so you don't over-extract."
+        ),
+        "picks": [
+            {"name": "Stumptown Hair Bender", "query": "Stumptown Hair Bender whole bean coffee",
+             "note": "Our top pick: a blend built for balance, sweet and complex even after 18 hours cold.",
+             "pros": ["Smooth", "Widely available"], "cons": ["Pricey per bag"]},
+            {"name": "Stone Street Cold Brew Coarse", "query": "Stone Street cold brew coarse ground coffee",
+             "note": "Purpose-ground for cold brew — coarse, dark, low acid, ready for the fridge.",
+             "pros": ["Pre-ground right", "Low acid"], "cons": ["One use case"]},
+            {"name": "Lavazza Gran Aroma", "query": "Lavazza Gran Aroma whole bean",
+             "note": "Best value supermarket bean: consistent, chocolatey, forgiving for first-timers.",
+             "pros": ["Cheap", "Reliable"], "cons": ["Less complex"]},
+        ],
+        "advice": (
+            "Use a medium-dark roast and a coarse grind (like sea salt). Steep 12–18 hours in the fridge, "
+            "then dilute 1:1 with water or milk. Avoid light roasts — they read sour and thin cold."
+        ),
+        "faq": [
+            ("What roast is best for cold brew?",
+             "Medium to dark roasts. They extract smoothly and taste sweet and chocolatey cold; light roasts turn sour."),
+            ("Should I grind fine or coarse?",
+             "Coarse, like sea salt. Fine grind over-extracts and turns muddy and bitter over 18 hours."),
+        ],
+        "related": ["best-coffee-maker-for-students-dorm", "how-to-make-cold-brew-coffee-at-home", "best-cheap-coffee-setup-under-50"],
+    },
+    {
+        "slug": "best-coffee-mug-warmer",
+        "title": "Best Coffee Mug Warmer (2026)",
+        "meta": "Keep your coffee hot at your desk with the best electric mug warmers — simple pads, temperature-controlled models, and what to avoid.",
+        "h1": "Best Coffee Mug Warmer",
+        "intro": (
+            "A mug warmer is the cheapest quality-of-life upgrade for anyone who forgets their coffee. "
+            "This guide compares simple heat pads against temperature-controlled warmers and picks the "
+            "ones that hold a steady drinkable temperature without scorching."
+        ),
+        "picks": [
+            {"name": "VOBAGA Auto Shut-Off Warmer", "query": "VOBAGA coffee mug warmer",
+             "note": "Our top pick: three temperature settings, auto shut-off, works with most mugs.",
+             "pros": ["Adjustable heat", "Safe auto-off"], "cons": ["Needs flat-bottom mug"]},
+            {"name": "Mr. Coffee Mug Warmer", "query": "Mr. Coffee mug warmer",
+             "note": "Best cheap basic: one temperature, on/off, does the job for a few dollars.",
+             "pros": ["Cheapest", "Simple"], "cons": ["No temp control"]},
+            {"name": "Cosori Temperature Control", "query": "Cosori coffee mug warmer temperature control",
+             "note": "Best for precision: holds an exact temperature and shows it on a display.",
+             "pros": ["Exact temp", "Display"], "cons": ["Larger footprint"]},
+        ],
+        "advice": (
+            "Use a flat-bottom ceramic or glass mug — curved or vacuum mugs won't transfer heat well. "
+            "Temperature-controlled models are worth it if you sip slowly over hours."
+        ),
+        "faq": [
+            ("Do mug warmers actually keep coffee hot?",
+             "Yes, they hold a steady warm temperature. They won't reheat cold coffee fast, but they stop it going cold."),
+            ("What mug works best?",
+             "A flat-bottom ceramic mug. Travel mugs and rounded bottoms don't make good contact."),
+        ],
+        "related": ["best-coffee-travel-mug-thermos", "best-coffee-maker-for-office", "best-single-serve-coffee-maker"],
+    },
 ]
