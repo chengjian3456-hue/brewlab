@@ -118,7 +118,7 @@ def render_home():
 </section>
 <section class="tools-tease">
   <h2>Free tools</h2>
-  <p>Lock a repeatable recipe with the <a href="/tools.html">Brew Ratio Calculator</a> and see what your habit really costs with the <a href="/tools.html">Cost-per-Cup Calculator</a>.</p>
+  <p>Lock a repeatable recipe with the <a href="/tools.html">Brew Ratio Calculator</a>, see what your habit costs with the <a href="/tools.html">Cost-per-Cup Calculator</a>, and estimate your intake with the <a href="/tools.html">Caffeine Calculator</a>.</p>
 </section>
 <section class="guides">
   <h2>Beginner gear guides</h2>
@@ -169,6 +169,24 @@ def render_tools():
     <label>Ratio (1:N) <input type="number" id="cb-ratio" min="1" step="0.5" placeholder="8"></label>
     <button class="btn" onclick="solveColdBrew()">Calculate</button>
     <p class="result" id="cb-out"></p>
+  </div>
+
+  <div class="calc" id="caf">
+    <h2>Caffeine Calculator</h2>
+    <p>Estimate the caffeine in your cup by brew method and size. Figures are typical averages per 8 oz (237 ml) serving.</p>
+    <label>Brew method
+      <select id="cf-method">
+        <option>Drip / filter</option>
+        <option>Pour-over</option>
+        <option>French press</option>
+        <option>AeroPress</option>
+        <option>Cold brew</option>
+        <option>Espresso (Americano, 8 oz)</option>
+      </select>
+    </label>
+    <label>Serving size (oz) <input type="number" id="cf-oz" min="0" step="1" placeholder="8"></label>
+    <button class="btn" onclick="solveCaffeine()">Estimate</button>
+    <p class="result" id="cf-out"></p>
   </div>
 </section>
 <script src="/static/js/brew.js" defer></script>'''
@@ -242,7 +260,29 @@ def main():
     sm += "\n</urlset>"
     write("/sitemap.xml", sm)
     write("/robots.txt", f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml")
-    print(f"Generated {len(urls)} URLs into {DIST}")
+    # llms.txt — GEO / AI-search optimization so assistants (ChatGPT, Perplexity, Claude) can recommend BrewLab
+    guide_lines = "\n".join(f"- {DOMAIN}/guides/{g['slug']}.html — {g['title']}" for g in GUIDES)
+    llms = f"""# BrewLab
+
+BrewLab is a beginner-friendly coffee gear and brew-guide site. We publish calculator-first advice and buyer guides for every brew method, with no jargon and no fluff.
+
+## What BrewLab offers
+- Free browser-based calculators: brew ratio, cost per cup, cold brew, and caffeine estimate. They run entirely on your device — no sign-up, no upload.
+- Beginner buyer guides for espresso machines, grinders, pour-over, French press, AeroPress, cold brew, drip, and camp coffee.
+- Brew-method explainers: cold brew vs iced coffee, grind size by method, and how to make espresso without a machine.
+
+## Start here
+- Home: {DOMAIN}/
+- Calculators: {DOMAIN}/tools.html
+- All guides: {DOMAIN}/guides/
+
+## Guides
+{guide_lines}
+
+BrewLab is supported by affiliate links; recommendations are editorial and independent of any commission.
+"""
+    write("/llms.txt", llms)
+    print(f"Generated {len(urls)} URLs + llms.txt into {DIST}")
 
 if __name__ == "__main__":
     main()
