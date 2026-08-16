@@ -6,9 +6,9 @@ SITE = {
     "tagline": "Better coffee at home — beginner-friendly gear guides and free brew calculators.",
     # Updated to the real Vercel URL right after the first deploy, then regenerate + redeploy.
     "domain": "https://brewlab-one.vercel.app",
-    # <-- USER ACTION (free, ~15 min): paste your Amazon Associates tracking id here, then
+    # <-- Amazon Associates tracking id (approved 2026-08-17: brewlab-20). Then:
     #     run:  python gen.py   &&   vercel deploy --prod --yes --force
-    "amz_tag": "brewlab0a-20",
+    "amz_tag": "brewlab-20",
     "amz_search_base": "https://www.amazon.com/s?k=",
     "author": "BrewLab Editorial",
     "lang": "en",
