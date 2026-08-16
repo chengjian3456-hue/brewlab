@@ -1493,4 +1493,133 @@ GUIDES = [
         ],
         "related": ["best-coffee-travel-mug-thermos", "best-coffee-maker-for-office", "best-single-serve-coffee-maker"],
     },
+    {
+        "slug": "best-coffee-filter",
+        "title": "Best Coffee Filter (2026): Paper vs Reusable, Compared",
+        "meta": "Paper, metal, and cloth coffee filters compared — which changes your cup most, and the best ones to buy.",
+        "h1": "Best Coffee Filter for Every Brewer",
+        "intro": (
+            "The filter is the cheapest part of your setup and one of the biggest drivers of taste. "
+            "Paper brightens and cleans the cup; metal and cloth add body and oils. This guide picks the "
+            "best of each so you can match the filter to how you like your coffee."
+        ),
+        "picks": [
+            {"name": "GoldTone Reusable Mesh Filter", "query": "GoldTone reusable coffee filter",
+             "note": "Our top pick for drip and pour-over: reusable stainless mesh, no paper taste, saves money over time.",
+             "pros": ["Reusable", "No paper taste"], "cons": ["Needs rinsing"]},
+            {"name": "BLEAP Unbleached Paper Filters", "query": "unbleached paper coffee filters",
+             "note": "Best paper: natural unbleached, clean cup, compostable, and cheap.",
+             "pros": ["Clean cup", "Compostable"], "cons": ["Single-use"]},
+            {"name": "Coffee Sock Cloth Filter", "query": "coffee sock cloth filter",
+             "note": "Best for cold brew and full-bodied brews: cloth gives a silky texture and lasts months.",
+             "pros": ["Silky body", "Reusable"], "cons": ["Slower", "Needs care"]},
+        ],
+        "advice": (
+            "Match the filter to the brewer and the body you want. Use paper for a bright, tea-like clarity; "
+            "use metal or cloth when you want more oils and a heavier mouthfeel."
+        ),
+        "faq": [
+            ("Do paper filters change the taste?",
+             "Yes — they trap oils and fine particles, giving a cleaner, brighter cup than metal or cloth."),
+            ("Are reusable filters worth it?",
+             "If you brew daily, they pay for themselves and cut waste. Just rinse them after each use."),
+        ],
+        "related": ["best-drip-coffee-maker-for-home", "best-pour-over-coffee-setup-for-beginners", "best-coffee-maker-for-students-dorm"],
+    },
+    {
+        "slug": "best-coffee-storage-canister",
+        "title": "Best Coffee Storage Canister (2026): Keep Beans Fresh",
+        "meta": "The best airtight coffee canisters with CO2 valves to keep beans fresh for weeks — tested picks.",
+        "h1": "Best Coffee Canister to Keep Beans Fresh",
+        "intro": (
+            "Beans go stale from air, light, and heat — often within two weeks of roasting. A proper canister "
+            "with an airtight seal and a CO2 valve slows that down dramatically. Here are the ones worth buying."
+        ),
+        "picks": [
+            {"name": "Fellow Atmos Vacuum Canister", "query": "Fellow Atmos vacuum canister",
+             "note": "Top pick: the vacuum seal pulls air out, keeping beans fresh weeks longer than a jar.",
+             "pros": ["Vacuum seal", "Sleek"], "cons": ["Pricier"]},
+            {"name": "Coffee Gator Airtight Canister", "query": "Coffee Gator airtight canister",
+             "note": "Best value: built-in CO2 valve, a date tracker, and solid build for the money.",
+             "pros": ["CO2 valve", "Date dial"], "cons": ["Basic look"]},
+            {"name": "OXO Pop Container", "query": "OXO coffee pop container",
+             "note": "Best budget: airtight pop seal, stackable, and cheap enough to keep one on every shelf.",
+             "pros": ["Cheap", "Stackable"], "cons": ["No valve"]},
+        ],
+        "advice": (
+            "Buy beans in smaller batches and store them cool and dark. Avoid repeated freeze-thaw cycles — "
+            "condensation ruins flavor faster than the air does."
+        ),
+        "faq": [
+            ("Do I need a special canister?",
+             "A truly airtight canister with a valve helps a lot. A regular kitchen jar lets air in and beans stale."),
+            ("Should I freeze my beans?",
+             "Only if you seal them well and don't thaw repeatedly. For most people, a cool dark canister is enough."),
+        ],
+        "related": ["best-coffee-beans-for-beginners", "best-coffee-beans-for-espresso", "best-coffee-grinder-for-pour-over"],
+    },
+    {
+        "slug": "how-to-descale-coffee-maker",
+        "title": "How to Descale a Coffee Maker (2026): Step-by-Step",
+        "meta": "A simple descaling routine that fixes slow brew and bad taste and extends your machine's life — plus the descaler to use.",
+        "h1": "How to Descale Your Coffee Maker",
+        "intro": (
+            "Mineral buildup from water slowly clogs your machine, slows the brew, and makes coffee taste off. "
+            "Descaling every one to three months fixes it and extends the life of your gear. Here's the routine and the descaler to use."
+        ),
+        "picks": [
+            {"name": "Urnex Dezcal Descaler", "query": "Urnex Dezcal descaler",
+             "note": "Our top pick: fast-acting, food-safe, and works on most drip and espresso machines.",
+             "pros": ["Effective", "Universal"], "cons": ["Measure carefully"]},
+            {"name": "Durgol Universal Descaler", "query": "Durgol universal descaler",
+             "note": "Best for espresso: gentle on boilers and odorless, safe for daily machines.",
+             "pros": ["Espresso-safe", "Odorless"], "cons": ["Costly"]},
+            {"name": "White Vinegar (Household)", "query": "white vinegar for descaling coffee",
+             "note": "Cheapest option: mix 1:1 with water, but rinse well afterward to avoid a vinegar taste.",
+             "pros": ["Cheap", "Available"], "cons": ["Smell", "Rinse needed"]},
+        ],
+        "advice": (
+            "Empty the machine, run a half-strength descaler cycle, let it sit 15-20 minutes, then run two or "
+            "three plain water cycles to flush. Do this more often if you have hard water."
+        ),
+        "faq": [
+            ("How often should I descale?",
+             "Every one to three months. If your brew is slow or tastes flat, it's time regardless of the calendar."),
+            ("Can I use vinegar instead?",
+             "Yes, but rinse thoroughly — descaler is cleaner and leaves less smell. Vinegar works in a pinch."),
+        ],
+        "related": ["best-drip-coffee-maker-for-home", "best-espresso-machine-for-small-apartment", "best-coffee-machine-under-200"],
+    },
+    {
+        "slug": "best-coffee-subscription",
+        "title": "Best Coffee Subscription (2026): Fresh Beans by Mail",
+        "meta": "The best coffee subscriptions for beginners — fresh roasted beans delivered, with flexible plans and fair prices.",
+        "h1": "Best Coffee Subscription for Beginners",
+        "intro": (
+            "A subscription is the easiest way to get fresh beans without thinking about it. The best ones let you "
+            "match the roast to your taste, skip months, and pause when you travel. Here are the ones worth trying."
+        ),
+        "picks": [
+            {"name": "Trade Coffee", "query": "Trade coffee subscription",
+             "note": "Top pick: a taste quiz matches roast to your preference, draws from many roasters, skip anytime.",
+             "pros": ["Taste quiz", "Flexible"], "cons": ["Pricey per bag"]},
+            {"name": "Atlas Coffee Club", "query": "Atlas coffee club subscription",
+             "note": "Best for variety: a different single-origin country each month — fun if you like exploring.",
+             "pros": ["World tour", "Giftable"], "cons": ["Less control"]},
+            {"name": "Local Roaster Subscription", "query": "local coffee roaster subscription",
+             "note": "Best value: many city roasters ship subscriptions cheaper than big boxes — search your own city.",
+             "pros": ["Fresh", "Supports local"], "cons": ["Varies by city"]},
+        ],
+        "advice": (
+            "Start with a two-bag-per-month plan and grind fresh at home. Pause before a trip so beans don't sit "
+            "stale, and adjust the roast as your taste settles."
+        ),
+        "faq": [
+            ("Are coffee subscriptions worth it?",
+             "If you drink daily, the freshness and convenience beat supermarket beans — and most let you skip months."),
+            ("Can I pause a subscription?",
+             "The good ones do. Pick a service that lets you skip or pause so you're never stuck with stale bags."),
+        ],
+        "related": ["best-coffee-beans-for-beginners", "best-coffee-beans-for-espresso", "best-coffee-grinder-for-pour-over"],
+    },
 ]
