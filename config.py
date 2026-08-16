@@ -5,7 +5,7 @@ SITE = {
     "name": "BrewLab",
     "tagline": "Better coffee at home — beginner-friendly gear guides and free brew calculators.",
     # Updated to the real Vercel URL right after the first deploy, then regenerate + redeploy.
-    "domain": "https://brewlab.vercel.app",
+    "domain": "https://brewlab-one.vercel.app",
     # <-- USER ACTION (free, ~15 min): paste your Amazon Associates tracking id here, then
     #     run:  python gen.py   &&   vercel deploy --prod --yes --force
     "amz_tag": "brewlab0a-20",
@@ -27,5 +27,6 @@ NAV = [
     ("Calculators", "/tools.html"),
     ("Guides", "/guides/"),
     ("Disclosure", "/disclosure.html"),
+    ("Privacy", "/privacy.html"),
     ("About", "/about.html"),
 ]
