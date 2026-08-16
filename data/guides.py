@@ -419,4 +419,108 @@ GUIDES = [
         ],
         "related": ["best-aeropress-setup-for-beginners", "best-budget-espresso-machine-under-100", "best-coffee-maker-for-camping"],
     },
+    {
+        "slug": "best-electric-kettle-for-pour-over",
+        "title": "Best Electric Kettle for Pour-Over (Temp Control That Matters)",
+        "meta": "A gooseneck kettle with real temperature control is the biggest pour-over upgrade. The best beginner electric kettles under $100.",
+        "h1": "Best Electric Kettle for Pour-Over",
+        "intro": (
+            "A gooseneck kettle is what separates decent pour-over from great pour-over. Electric "
+            "models add temperature control, which matters more than people expect: green and light "
+            "roasts taste sour if the water is too cool, and dark roasts go bitter if it's too hot. "
+            "This guide covers the best beginner electric kettles with gooseneck spouts and accurate "
+            "temperature settings."
+        ),
+        "picks": [
+            {"name": "Fellow Corvo EKG", "query": "Fellow Corvo EKG electric kettle",
+             "note": "The design-reference kettle: precise temp, hold mode, beautifully balanced gooseneck. The premium pick.",
+             "pros": ["Accurate temp", "Lovely pour", "Holds temp"], "cons": ["Pricey"]},
+            {"name": "Bonavita 1L Gooseneck", "query": "Bonavita gooseneck electric kettle",
+             "note": "Lab-grade temp accuracy at half the price. The pragmatic favorite for serious beginners.",
+             "pros": ["Accurate", "Good value", "Durable"], "cons": ["Plain look"]},
+            {"name": "Cosori Gooseneck", "query": "Cosori gooseneck electric kettle",
+             "note": "Affordable, accurate enough, with presets. The best sub-$60 entry that still pours well.",
+             "pros": ["Cheap", "Presets", "Decent pour"], "cons": ["Build is basic"]},
+        ],
+        "advice": (
+            "Set temperature by roast: ~96°C (205°F) for light, ~93°C (200°F) for medium, ~90°C (194°F) "
+            "for dark. A variable kettle makes this repeatable; a stovetop one leaves it to guesswork. "
+            "Pair it with a scale and use our Brew Ratio Calculator to lock the recipe."
+        ),
+        "faq": [
+            ("Do I need temperature control for pour-over?",
+             "Strongly recommended. Different roasts want different water temps; control is the easiest way to stop sour or bitter cups."),
+            ("Gooseneck or regular spout?",
+             "Gooseneck, always, for pour-over. A standard spout pours too fast and unevenly to control extraction."),
+        ],
+        "related": ["best-pour-over-coffee-setup-for-beginners", "best-coffee-scale-for-espresso"],
+    },
+    {
+        "slug": "best-coffee-beans-for-beginners",
+        "title": "Best Coffee Beans for Beginners (What to Buy, What to Avoid)",
+        "meta": "New to buying beans? The roast levels, freshness rules, and beginner-friendly bags that taste good without a refined palate.",
+        "h1": "Best Coffee Beans for Beginners",
+        "intro": (
+            "Beans matter as much as the brewer. For beginners the goal is simple: a forgiving, "
+            "freshly roasted bag that tastes good however you brew it. This guide explains roast levels "
+            "in plain terms, the one freshness rule that matters, and approachable bags to start with."
+        ),
+        "picks": [
+            {"name": "Medium-roast whole bean (local roaster)", "query": "medium roast whole bean coffee",
+             "note": "Start here: balanced, forgiving, and tastes good in any brewer. Buy from a roaster with a roast date on the bag.",
+             "pros": ["Balanced", "Forgiving", "Versatile"], "cons": ["Needs a grinder"]},
+            {"name": "Pre-ground medium roast", "query": "medium roast ground coffee",
+             "note": "If you have no grinder yet, pre-ground is fine to learn on — just buy small and use within a week.",
+             "pros": ["No grinder needed", "Convenient"], "cons": ["Stales fast"]},
+            {"name": "Single-origin light roast (later)", "query": "single origin light roast coffee beans",
+             "note": "Once your palate develops, bright single-origin light roasts are the fun next step. More demanding to brew.",
+             "pros": ["Complex", "Educational"], "cons": ["Less forgiving"]},
+        ],
+        "advice": (
+            "One rule beats everything: buy whole beans roasted within the last 4 weeks and grind just "
+            "before brewing. Old pre-ground coffee is the #1 reason beginner coffee tastes bad. A $30 "
+            "hand grinder turns a $15 bag into a cafe cup."
+        ),
+        "faq": [
+            ("What roast is best for beginners?",
+             "Medium. It's balanced and forgiving across brew methods; dark can taste ashy and light is harder to extract well."),
+            ("Whole bean or pre-ground?",
+             "Whole bean, always, if you have any grinder. Pre-ground stales within days; whole beans stay fresh for weeks."),
+        ],
+        "related": ["best-pour-over-coffee-setup-for-beginners", "best-french-press-for-one-person", "best-quiet-coffee-grinder-under-100"],
+    },
+    {
+        "slug": "best-cold-brew-maker-for-beginners",
+        "title": "Best Cold Brew Maker for Beginners (Smooth, Low-Acid, Easy)",
+        "meta": "Cold brew is the most mistake-proof coffee you can make. The best beginner cold brew makers — mason-jar, immersion, and slow-drip.",
+        "h1": "Best Cold Brew Maker for Beginners",
+        "intro": (
+            "Cold brew is nearly impossible to mess up: coarse grounds, cold water, 12–18 hours, done. "
+            "It's smooth, low-acid, and makes a concentrate you dilute to taste. This guide covers the "
+            "easiest beginner cold brew makers, from a simple mason jar to purpose-built brewers."
+        ),
+        "picks": [
+            {"name": "Mason jar + mesh filter", "query": "cold brew coffee maker mason jar",
+             "note": "The cheapest real cold brew: any jar plus a reusable mesh filter. No special gear required.",
+             "pros": ["Cheapest", "No waste", "Versatile"], "cons": ["Slight setup"]},
+            {"name": "Takeya Cold Brew Maker", "query": "Takeya cold brew coffee maker",
+             "note": "A tidy pitcher with an immersion filter basket. Fits the fridge door and cleans in seconds.",
+             "pros": ["Compact", "Easy clean", "Affordable"], "cons": ["Plastic pitcher"]},
+            {"name": "OXO Cold Brew Compact", "query": "OXO cold brew maker",
+             "note": "Rainmaker lid for even saturation and a clean release valve. The polished beginner choice.",
+             "pros": ["Even saturation", "Clean pour", "Reusable filter"], "cons": ["Pricier"]},
+        ],
+        "advice": (
+            "Use a very coarse grind (like coarse sea salt) and a 1:8 coffee-to-water ratio for "
+            "concentrate, then dilute 1:1 with water or milk. Steep 12–18 hours in the fridge. Cold "
+            "brew stays good for up to two weeks refrigerated."
+        ),
+        "faq": [
+            ("Is cold brew easier than hot coffee?",
+             "Yes for beginners — no temperature or timing precision, just coarse grounds and patience."),
+            ("Why is my cold brew weak?",
+             "Usually too little coffee or too short a steep. Use a 1:8 concentrate ratio and steep a full 16 hours."),
+        ],
+        "related": ["best-french-press-for-one-person", "best-pour-over-coffee-setup-for-beginners"],
+    },
 ]
