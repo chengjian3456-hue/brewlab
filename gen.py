@@ -174,13 +174,21 @@ def write(path, content):
     with open(full, "w", encoding="utf-8") as f:
         f.write(content)
 
+def copy_static():
+    # Mirror STATIC -> DIST/static without ever calling rmtree (sandbox blocks it).
+    for root, _, files in os.walk(STATIC):
+        for fn in files:
+            src = os.path.join(root, fn)
+            rel = os.path.relpath(src, STATIC)
+            dst = os.path.join(DIST, "static", rel)
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            shutil.copy2(src, dst)
+
 def main():
-    if os.path.exists(DIST):
-        shutil.rmtree(DIST)
-    os.makedirs(DIST)
+    os.makedirs(DIST, exist_ok=True)
     # copy static
     if os.path.exists(STATIC):
-        shutil.copytree(STATIC, os.path.join(DIST, "static"))
+        copy_static()
     # pages
     write("/index.html", render_home())
     write("/tools.html", render_tools())
@@ -199,10 +207,25 @@ def main():
         <p>Some links are "sponsored" (affiliate) links to Amazon or other retailers. If you click and buy, we may receive a commission at no extra cost to you. This does not influence our editorial choices — we recommend what we believe is best for beginners regardless of commission.</p>
         <p>Amazon and the Amazon logo are trademarks of Amazon.com, Inc.</p></section>''',
         "/disclosure.html"))
+    write("/privacy.html", render_simple(
+        "Privacy Policy", "BrewLab privacy policy: what we collect, what we don't, cookies, and third-party links.",
+        '''<section class="simple"><h1>Privacy Policy</h1>
+        <p>Effective date: 2026-08-17. This policy explains what BrewLab collects and what it does not.</p>
+        <h2>What we collect</h2>
+        <p>BrewLab is a static website. We do not operate accounts, and we do not ask you to submit personal information through forms. Our free calculators run entirely in your browser; the numbers you type never leave your device.</p>
+        <h2>Cookies and analytics</h2>
+        <p>We may use privacy-friendly, aggregated analytics to understand general traffic (for example, which guides are popular). This data is anonymous and not tied to an identifiable person. Third-party partners (such as Amazon, through affiliate links) may set their own cookies when you visit their sites; those are governed by their policies.</p>
+        <h2>Affiliate links</h2>
+        <p>Some links on BrewLab are affiliate links to Amazon or other retailers. If you click them and make a purchase, a cookie may be placed by that retailer to attribute the sale. This is described in our <a href="/disclosure.html">Affiliate Disclosure</a>.</p>
+        <h2>Third-party sites</h2>
+        <p>BrewLab contains links to external websites. We are not responsible for the privacy practices of those sites.</p>
+        <h2>Contact</h2>
+        <p>If you have questions about this policy, you can reach us through the project repository listed on our <a href="/about.html">About</a> page.</p></section>''',
+        "/privacy.html"))
     for g in GUIDES:
         write(f'/guides/{g["slug"]}.html', render_guide(g))
     # sitemap
-    urls = [DOMAIN+"/", DOMAIN+"/tools.html", DOMAIN+"/guides/", DOMAIN+"/about.html", DOMAIN+"/disclosure.html"]
+    urls = [DOMAIN+"/", DOMAIN+"/tools.html", DOMAIN+"/guides/", DOMAIN+"/about.html", DOMAIN+"/disclosure.html", DOMAIN+"/privacy.html"]
     urls += [DOMAIN+f'/guides/{g["slug"]}.html' for g in GUIDES]
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sm += "\n".join(f'  <url><loc>{u}</loc></url>' for u in urls)
