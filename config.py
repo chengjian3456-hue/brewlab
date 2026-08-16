@@ -14,6 +14,10 @@ SITE = {
     "lang": "en",
 }
 
+# IndexNow key for instant indexing on Bing/Yandex (no identity needed).
+# The key file is served at /{INDEXNOW_KEY}.txt; we ping api.indexnow.org after each deploy.
+INDEXNOW_KEY = "d4e5f60718293a4b5c6d7e8f90a1b2c3"
+
 # Global footer affiliate disclosure (required by Amazon Associates + FTC).
 DISCLOSURE = (
     "BrewLab is reader-supported. When you buy through links on our site, "
