@@ -64,3 +64,11 @@ function solveCaffeine(){
   var pct = Math.round(total / 400 * 100);
   out.textContent = method + ': ≈ ' + Math.round(total) + ' mg caffeine in ' + oz + ' oz (' + pct + '% of the 400 mg daily guideline).';
 }
+
+function solveEspresso(){
+  var dose = num('e-dose'), ratio = num('e-ratio');
+  var out = document.getElementById('e-out');
+  if(dose === null || ratio === null){ out.textContent = 'Fill both fields.'; return; }
+  var yield = dose * ratio;
+  out.textContent = dose + ' g dose × 1:' + ratio + ' = ' + yield.toFixed(1) + ' g liquid yield in the cup.';
+}
