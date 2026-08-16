@@ -44,3 +44,23 @@ function solveColdBrew(){
     out.textContent = 'Concentrate: ' + c + ' g coffee + ' + Math.round(w) + ' ml water (1:' + (w/c).toFixed(1) + '). Dilute 1:1 → ~' + (w*2/200).toFixed(1) + ' cups.';
   }
 }
+
+var CAF_PER_8OZ = {
+  "Drip / filter": 95,
+  "Pour-over": 95,
+  "French press": 100,
+  "AeroPress": 90,
+  "Cold brew": 150,
+  "Espresso (Americano, 8 oz)": 128
+};
+function solveCaffeine(){
+  var method = document.getElementById('cf-method').value;
+  var oz = num('cf-oz');
+  var out = document.getElementById('cf-out');
+  if(oz === null){ out.textContent = 'Enter the serving size in oz.'; return; }
+  var per8 = CAF_PER_8OZ[method];
+  if(per8 === undefined){ out.textContent = 'Pick a brew method.'; return; }
+  var total = per8 * (oz / 8);
+  var pct = Math.round(total / 400 * 100);
+  out.textContent = method + ': ≈ ' + Math.round(total) + ' mg caffeine in ' + oz + ' oz (' + pct + '% of the 400 mg daily guideline).';
+}
