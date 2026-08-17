@@ -127,6 +127,25 @@ def render_guide(g):
   <p class="buy"><a class="btn" href="{link}" rel="sponsored nofollow">View on Amazon →</a></p>
 </div>''')
     picks_html = "\n".join(picks)
+    # ---- CTR boost: top pick CTA above the fold + quick comparison ----
+    top = g["picks"][0]
+    top_link = amz(top["query"])
+    top_pick_html = f'''<section class="top-pick">
+  <p class="tp-label">Our top pick</p>
+  <div class="tp-card">
+    <h3><a href="{top_link}" rel="sponsored nofollow">{esc(top["name"])}</a></h3>
+    <p>{esc(top["note"])}</p>
+    <p class="buy"><a class="btn big" href="{top_link}" rel="sponsored nofollow">View on Amazon \u2192</a></p>
+  </div>
+</section>'''
+    rows = "".join(
+        f'''<tr><td><a href="{amz(p['query'])}" rel="sponsored nofollow">{esc(p["name"])}</a></td>
+    <td class="why">{esc(p["note"])}</td>
+    <td class="tar"><a class="btn sm" href="{amz(p['query'])}" rel="sponsored nofollow">View \u2192</a></td></tr>'''
+        for p in g["picks"])
+    table_html = f'''<section class="compare"><h2>Quick comparison</h2>
+  <table><thead><tr><th>Pick</th><th>Why we like it</th><th></th></tr></thead>
+  <tbody>{rows}</tbody></table></section>'''
     faq_html = "\n".join(f'<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q,a in g["faq"])
     rel_html = ""
     if g.get("related"):
@@ -136,6 +155,8 @@ def render_guide(g):
   <h1>{esc(g["h1"])}</h1>
   {hero}
   <p class="lead">{esc(g["intro"])}</p>
+  {top_pick_html}
+  {table_html}
   <section class="picks">{picks_html}</section>
   <section class="advice"><h2>Buying advice</h2><p>{esc(g["advice"])}</p></section>
   <section class="faq"><h2>FAQ</h2>{faq_html}</section>
@@ -259,11 +280,23 @@ def copy_static():
             os.makedirs(os.path.dirname(dst), exist_ok=True)
             shutil.copy2(src, dst)
 
+def copy_free():
+    # Copy standalone free/ resources (linkbait) into DIST so they deploy.
+    FREE = os.path.join(ROOT, "free")
+    if not os.path.exists(FREE):
+        return
+    for fn in os.listdir(FREE):
+        if fn.endswith(".html"):
+            src = os.path.join(FREE, fn)
+            dst = os.path.join(DIST, fn)
+            shutil.copy2(src, dst)
+
 def main():
     os.makedirs(DIST, exist_ok=True)
     # copy static
     if os.path.exists(STATIC):
         copy_static()
+    copy_free()
     # pages
     write("/index.html", render_home())
     write("/tools.html", render_tools())
@@ -302,6 +335,12 @@ def main():
     # sitemap
     urls = [DOMAIN+"/", DOMAIN+"/tools.html", DOMAIN+"/guides/", DOMAIN+"/about.html", DOMAIN+"/disclosure.html", DOMAIN+"/privacy.html"]
     urls += [DOMAIN+f'/guides/{g["slug"]}.html' for g in GUIDES]
+    # include standalone free/ linkbait pages (e.g. the printable cheat sheet)
+    FREE = os.path.join(ROOT, "free")
+    if os.path.exists(FREE):
+        for fn in sorted(os.listdir(FREE)):
+            if fn.endswith(".html"):
+                urls.append(DOMAIN + "/" + fn)
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sm += "\n".join(f'  <url><loc>{u}</loc></url>' for u in urls)
     sm += "\n</urlset>"
