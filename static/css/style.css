@@ -83,3 +83,6 @@ h2{font-size:1.35rem;color:var(--brand);margin:1.4em 0 .5em}
   .pick .pc{grid-template-columns:1fr}
   .hero h1{font-size:2rem}
 }
+
+.top-pick .tp-note{font-size:13px;color:#8a7a66;margin:6px 0 0;line-height:1.4}
+.pick .ship{font-size:12px;color:#8a7a66;margin:-4px 0 12px}
