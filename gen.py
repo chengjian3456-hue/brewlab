@@ -125,6 +125,7 @@ def render_guide(g):
   <p>{esc(p["note"])}</p>
   <div class="pc"><ul class="pros">{pros}</ul><ul class="cons">{cons}</ul></div>
   <p class="buy"><a class="btn" href="{link}" rel="sponsored nofollow">View on Amazon →</a></p>
+  <p class="ship">Free shipping on eligible items</p>
 </div>''')
     picks_html = "\n".join(picks)
     # ---- CTR boost: top pick CTA above the fold + quick comparison ----
@@ -136,6 +137,7 @@ def render_guide(g):
     <h3><a href="{top_link}" rel="sponsored nofollow">{esc(top["name"])}</a></h3>
     <p>{esc(top["note"])}</p>
     <p class="buy"><a class="btn big" href="{top_link}" rel="sponsored nofollow">View on Amazon \u2192</a></p>
+  <p class="tp-note">Free shipping on eligible Amazon items · 30-day easy returns · you earn on anything bought within 24h</p>
   </div>
 </section>'''
     rows = "".join(
