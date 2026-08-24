@@ -34,6 +34,14 @@ browser, no ads. Embed it on your coffee blog or café site in one line:
 Pick a brew method, enter your dose, get exact water weight — plus a built-in brew
 timer and cost-per-cup estimate. Single static HTML, zero dependencies.
 
+## 🧰 Free Tools (live)
+
+All run 100% in the browser, no sign-up, no tracking:
+
+- **Brew Ratio & Timer Calculator** — https://brewlab-one.vercel.app/brew-calculator.html
+- **Tools hub** (ratio, cost, cold-brew, caffeine) — https://brewlab-one.vercel.app/tools.html
+- **Coffee Brewing Ratios reference** — https://brewlab-one.vercel.app/coffee-brewing-ratios.html
+
 ## How it makes money
 
 - **Amazon Associates** — every guide links to Amazon search results for the recommended
