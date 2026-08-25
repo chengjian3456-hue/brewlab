@@ -42,6 +42,15 @@ All run 100% in the browser, no sign-up, no tracking:
 - **Tools hub** (ratio, cost, cold-brew, caffeine) — https://brewlab-one.vercel.app/tools.html
 - **Coffee Brewing Ratios reference** — https://brewlab-one.vercel.app/coffee-brewing-ratios.html
 
+**Latest troubleshooting guides:**
+
+- **Coffee Tastes Burnt or Ashy? (Fix)** — https://brewlab-one.vercel.app/free/coffee-tastes-burnt-or-ashy.html
+- **Descale Light Won't Turn Off? Fixes (2026)** — https://brewlab-one.vercel.app/free/espresso-descale-light-wont-turn-off.html
+- **Grinder Not Grinding Evenly? Causes & Fixes (2026)** — https://brewlab-one.vercel.app/free/espresso-grinder-not-grinding-evenly.html
+- **Coffee Machine Descaling Interval by Brand (2026)** — https://brewlab-one.vercel.app/free/coffee-machine-descaling-interval-by-brand.html
+- **Timemore C2 vs 1Zpresso JX-Pro — Real Differences (2026)** — https://brewlab-one.vercel.app/free/timemore-c2-vs-1zpresso-jx-pro.html
+- **Breville Bambino vs DeLonghi Dedica — Real Differences (2026)** — https://brewlab-one.vercel.app/free/breville-bambino-vs-delonghi-dedica.html
+
 ## How it makes money
 
 - **Amazon Associates** — every guide links to Amazon search results for the recommended
